@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>地书翻译机</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Book from the Ground Translator</p>
+        <h1>地书翻译机</h1>
+        <p class="subtitle">把自然语言短句转换成《地书》图形序列，并查看字面、语境与候选解释。</p>
+      </div>
+      <div class="build-meta">
+        <span id="conceptCount">0 concepts</span>
+        <span id="exampleCount">0 examples</span>
+        <span id="serviceStatus" class="status-chip">离线模式</span>
+      </div>
+    </header>
+
+    <section class="workspace">
+      <section class="input-panel panel">
+        <div class="panel-head">
+          <div>
+            <div class="section-label">输入区</div>
+            <h2>自然语言输入</h2>
+          </div>
+        </div>
+        <textarea id="sourceInput" rows="5">我走进书店，想到礼物。</textarea>
+        <div class="actions">
+          <button id="translateBtn" type="button">翻译</button>
+          <button id="clearBtn" type="button">清空</button>
+        </div>
+        <div class="examples">
+          <div class="section-label">精选示例</div>
+          <div id="exampleButtons" class="example-buttons"></div>
+        </div>
+      </section>
+
+      <section class="result-panel panel">
+        <div class="result-head">
+          <div>
+            <div class="section-label">地书输出</div>
+            <h2 id="resultTitle">等待翻译</h2>
+          </div>
+          <div class="score">
+            <span id="confidenceLabel">0%</span>
+            <div class="score-track"><span id="confidenceBar"></span></div>
+          </div>
+        </div>
+        <div id="glyphOutput" class="glyph-output"></div>
+      </section>
+
+      <aside class="assist-panel">
+        <section class="tool-card">
+          <div class="panel-head compact">
+            <div>
+              <div class="section-label">当前解释</div>
+              <h2>选中图形</h2>
+            </div>
+          </div>
+          <div id="selectedDetail" class="selected-detail empty-copy">点击任意图形结果查看详细信息。</div>
+        </section>
+
+        <section class="tool-card">
+          <div class="panel-head compact">
+            <div>
+              <div class="section-label">反向查词</div>
+              <h2>概念检索</h2>
+            </div>
+          </div>
+          <input id="lookupInput" class="text-input" type="search" placeholder="输入中文词或概念 ID">
+          <div id="lookupResults" class="lookup-results"></div>
+        </section>
+
+        <section class="tool-card history-card">
+          <div class="panel-head compact">
+            <div>
+              <div class="section-label">历史记录</div>
+              <h2>最近翻译</h2>
+            </div>
+            <button id="clearHistoryBtn" type="button" class="ghost-btn">清空</button>
+          </div>
+          <div id="historyList" class="history-list"></div>
+        </section>
+      </aside>
+    </section>
+
+    <section class="details panel">
+      <div class="detail-head">
+        <div>
+          <div class="section-label">解释层</div>
+          <h2>字面、语境与误读</h2>
+        </div>
+        <div id="matchStats" class="match-stats">0 matched / 0 unknown</div>
+      </div>
+      <div id="detailList" class="detail-list"></div>
+    </section>
+
+    <section class="ai-panel panel">
+      <div class="panel-head">
+        <div>
+          <div class="section-label">AI 补译</div>
+          <h2>不可译片段候选建议</h2>
+        </div>
+      </div>
+      <div class="ai-grid">
+        <div>
+          <input id="aiEndpointInput" class="text-input" type="url" value="https://api.deepseek.com/v1/chat/completions" aria-label="API Endpoint">
+          <div class="inline-fields">
+            <input id="aiModelInput" class="text-input" type="text" value="deepseek-chat" aria-label="Model">
+            <input id="aiApiKeyInput" class="text-input" type="password" placeholder="API Key" aria-label="API Key">
+          </div>
+          <button id="runAiApiBtn" type="button">后台 AI 补译</button>
+          <div id="aiStatus" class="ai-status">普通翻译可离线使用；后台 AI 补译需要通过本地 server.js 打开页面。</div>
+        </div>
+        <div>
+          <div class="actions compact">
+            <button id="buildAiPromptBtn" type="button">生成提示</button>
+            <button id="copyAiPromptBtn" type="button">复制提示</button>
+            <button id="applyAiResponseBtn" type="button">读取 JSON 建议</button>
+          </div>
+          <textarea id="aiPromptOutput" rows="5" readonly placeholder="有不可译空位时，在这里生成给大模型的提示。"></textarea>
+          <textarea id="aiResponseInput" rows="5" placeholder="把大模型返回的 JSON 粘贴到这里，再点击读取 JSON 建议。"></textarea>
+        </div>
+      </div>
+      <div id="aiSuggestions" class="ai-suggestions empty-copy">AI 或手动 JSON 的补译建议会显示在这里，采纳前不会自动替换结果。</div>
+    </section>
+  </main>
+
+  <script src="../data/translator/concept_index.js"></script>
+  <script src="../data/translator/examples.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

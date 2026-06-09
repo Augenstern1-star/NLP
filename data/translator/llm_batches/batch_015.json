@@ -1,0 +1,1056 @@
+{
+  "batch_id": "batch_015",
+  "instruction": "Merge near-synonymous Chinese concept candidates, choose one readable label, keep only the strongest Dishu image targets, and write concise explanations plus possible misreadings. Return JSON with concept_id, label, synonyms, semantic_tags, explanation, possible_misreadings, and selected_target_ids.",
+  "candidates": [
+    {
+      "label": "然后沐浴",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_191567_40",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007887.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007888.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007889.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007890.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007891.jpg"
+          ],
+          "leaf_range": [
+            7887,
+            7891
+          ],
+          "display_labels": [
+            "34_R_006_003",
+            "34_R_006_004",
+            "34_R_006_005",
+            "34_R_006_006",
+            "34_R_006_007"
+          ],
+          "literal_gloss": "",
+          "pragmatic_meaning": "上厕所沐浴",
+          "free_translation": "她回家，先去卫生间上厕所然后沐浴",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (255).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "上厕所沐浴",
+        "她回家",
+        "先去卫生",
+        "间上厕所"
+      ]
+    },
+    {
+      "label": "发出声音",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_382778_79",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011025.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011026.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011027.jpg"
+          ],
+          "leaf_range": [
+            11025,
+            11027
+          ],
+          "display_labels": [
+            "52_R_002_003",
+            "52_R_002_004",
+            "52_R_002_005"
+          ],
+          "literal_gloss": "声音",
+          "pragmatic_meaning": "发出声音",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (29).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "声音"
+      ]
+    },
+    {
+      "label": "穿居家服",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_438370_9",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011092.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011093.jpg"
+          ],
+          "leaf_range": [
+            11092,
+            11093
+          ],
+          "display_labels": [
+            "52_R_005_005",
+            "52_R_005_006"
+          ],
+          "literal_gloss": "穿衬衣",
+          "pragmatic_meaning": "穿居家服",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (29).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "穿衬衣"
+      ]
+    },
+    {
+      "label": "又听到声音",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_490879_8",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011144.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011145.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011146.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011147.jpg"
+          ],
+          "leaf_range": [
+            11144,
+            11147
+          ],
+          "display_labels": [
+            "53_L_003_005",
+            "53_L_003_006",
+            "53_L_003_007",
+            "53_L_003_008"
+          ],
+          "literal_gloss": "又听到声音",
+          "pragmatic_meaning": "又听到声音",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (29).txt"
+        }
+      ],
+      "candidate_synonyms": []
+    },
+    {
+      "label": "四处找没找到",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_493999_72",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011137.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011138.jpg"
+          ],
+          "leaf_range": [
+            11137,
+            11138
+          ],
+          "display_labels": [
+            "53_L_002_005",
+            "53_L_002_006"
+          ],
+          "literal_gloss": "四处找没找到",
+          "pragmatic_meaning": "找哪儿来的声音",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (29).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "找哪儿来的声音"
+      ]
+    },
+    {
+      "label": "找哪儿来的声音",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_493999_72",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011137.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011138.jpg"
+          ],
+          "leaf_range": [
+            11137,
+            11138
+          ],
+          "display_labels": [
+            "53_L_002_005",
+            "53_L_002_006"
+          ],
+          "literal_gloss": "四处找没找到",
+          "pragmatic_meaning": "找哪儿来的声音",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (29).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "四处找没找到"
+      ]
+    },
+    {
+      "label": "蚊子的声音",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_503664_60",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011156.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011157.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011158.jpg"
+          ],
+          "leaf_range": [
+            11156,
+            11158
+          ],
+          "display_labels": [
+            "53_L_004_005",
+            "53_L_004_006",
+            "53_L_004_007"
+          ],
+          "literal_gloss": "蚊子的声音",
+          "pragmatic_meaning": "有蚊子",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (29).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "有蚊子"
+      ]
+    },
+    {
+      "label": "血压升高",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_040615_10",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011205.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011206.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011207.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011208.jpg"
+          ],
+          "leaf_range": [
+            11205,
+            11208
+          ],
+          "display_labels": [
+            "53_L_007_010",
+            "53_L_007_011",
+            "53_L_007_012",
+            "53_L_007_013"
+          ],
+          "literal_gloss": "血压升高",
+          "pragmatic_meaning": "血压升高",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (29).txt"
+        }
+      ],
+      "candidate_synonyms": []
+    },
+    {
+      "label": "以头抢地",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_043343_62",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011210.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011211.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011212.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011213.jpg"
+          ],
+          "leaf_range": [
+            11210,
+            11213
+          ],
+          "display_labels": [
+            "53_L_007_015",
+            "53_L_007_016",
+            "53_L_007_017",
+            "53_L_007_018"
+          ],
+          "literal_gloss": "以头抢地",
+          "pragmatic_meaning": "以头抢地",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (29).txt"
+        }
+      ],
+      "candidate_synonyms": []
+    },
+    {
+      "label": "去储物间",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_046711_18",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011216.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011217.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011218.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011219.jpg"
+          ],
+          "leaf_range": [
+            11216,
+            11219
+          ],
+          "display_labels": [
+            "53_L_008_002",
+            "53_L_008_003",
+            "53_L_008_004",
+            "53_L_008_005"
+          ],
+          "literal_gloss": "去储物间",
+          "pragmatic_meaning": "去储物间",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (29).txt"
+        }
+      ],
+      "candidate_synonyms": []
+    },
+    {
+      "label": "想用拍子",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_057219_64",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011221.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011222.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011223.jpg"
+          ],
+          "leaf_range": [
+            11221,
+            11223
+          ],
+          "display_labels": [
+            "53_L_008_007",
+            "53_L_008_008",
+            "53_L_008_009"
+          ],
+          "literal_gloss": "想用拍子",
+          "pragmatic_meaning": "想拍死蚊子",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (29).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "想拍死蚊子"
+      ]
+    },
+    {
+      "label": "想拍死蚊子",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_057219_64",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011221.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011222.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011223.jpg"
+          ],
+          "leaf_range": [
+            11221,
+            11223
+          ],
+          "display_labels": [
+            "53_L_008_007",
+            "53_L_008_008",
+            "53_L_008_009"
+          ],
+          "literal_gloss": "想用拍子",
+          "pragmatic_meaning": "想拍死蚊子",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (29).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "想用拍子"
+      ]
+    },
+    {
+      "label": "上下砍蚊子",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_085349_8",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011239.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011240.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011241.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011242.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011243.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011244.jpg"
+          ],
+          "leaf_range": [
+            11239,
+            11244
+          ],
+          "display_labels": [
+            "53_L_009_004",
+            "53_L_009_005",
+            "53_L_009_006",
+            "53_L_009_007",
+            "53_L_009_008",
+            "53_L_009_009"
+          ],
+          "literal_gloss": "上下砍蚊子",
+          "pragmatic_meaning": "上下砍蚊子",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (29).txt"
+        }
+      ],
+      "candidate_synonyms": []
+    },
+    {
+      "label": "换方向砍",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_097910_13",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011258.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011259.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011260.jpg"
+          ],
+          "leaf_range": [
+            11258,
+            11260
+          ],
+          "display_labels": [
+            "53_L_010_002",
+            "53_L_010_003",
+            "53_L_010_004"
+          ],
+          "literal_gloss": "换方向砍",
+          "pragmatic_meaning": "换方向砍",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (29).txt"
+        }
+      ],
+      "candidate_synonyms": []
+    },
+    {
+      "label": "蚊子飞灯上了",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_102494_63",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011261.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011262.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011263.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011264.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011265.jpg"
+          ],
+          "leaf_range": [
+            11261,
+            11265
+          ],
+          "display_labels": [
+            "53_L_010_005",
+            "53_L_010_006",
+            "53_L_010_007",
+            "53_L_010_008",
+            "53_L_010_009"
+          ],
+          "literal_gloss": "蚊子飞灯上了",
+          "pragmatic_meaning": "蚊子飞到灯上",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (29).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "蚊子飞到灯上"
+      ]
+    },
+    {
+      "label": "蚊子飞到灯上",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_102494_63",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011261.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011262.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011263.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011264.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011265.jpg"
+          ],
+          "leaf_range": [
+            11261,
+            11265
+          ],
+          "display_labels": [
+            "53_L_010_005",
+            "53_L_010_006",
+            "53_L_010_007",
+            "53_L_010_008",
+            "53_L_010_009"
+          ],
+          "literal_gloss": "蚊子飞灯上了",
+          "pragmatic_meaning": "蚊子飞到灯上",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (29).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "蚊子飞灯上了"
+      ]
+    },
+    {
+      "label": "无语且懵比",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_108095_54",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011267.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011268.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011269.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011270.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011271.jpg"
+          ],
+          "leaf_range": [
+            11267,
+            11271
+          ],
+          "display_labels": [
+            "53_L_010_011",
+            "53_L_010_012",
+            "53_L_010_013",
+            "53_L_010_014",
+            "53_L_010_015"
+          ],
+          "literal_gloss": "无语且懵比",
+          "pragmatic_meaning": "懵逼了",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (29).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "懵逼了"
+      ]
+    },
+    {
+      "label": "凳子叠加",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_114106_26",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011277.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011278.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011279.jpg"
+          ],
+          "leaf_range": [
+            11277,
+            11279
+          ],
+          "display_labels": [
+            "53_R_001_005",
+            "53_R_001_006",
+            "53_R_001_007"
+          ],
+          "literal_gloss": "凳子叠加",
+          "pragmatic_meaning": "凳子叠加",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (29).txt"
+        }
+      ],
+      "candidate_synonyms": []
+    },
+    {
+      "label": "满头大汗",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_510485_28",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007805.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007806.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007807.jpg"
+          ],
+          "leaf_range": [
+            7805,
+            7807
+          ],
+          "display_labels": [
+            "34_R_001_002",
+            "34_R_001_003",
+            "34_R_001_004"
+          ],
+          "literal_gloss": "满头大汗",
+          "pragmatic_meaning": "满头大汗",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (280).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "我累得满头大汗。",
+        "累得满头大汗。",
+        "满头大汗。"
+      ]
+    },
+    {
+      "label": "调大冷风",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_518839_55",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007819.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007820.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007821.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007822.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007823.jpg"
+          ],
+          "leaf_range": [
+            7819,
+            7823
+          ],
+          "display_labels": [
+            "34_R_002_002",
+            "34_R_002_003",
+            "34_R_002_004",
+            "34_R_002_005",
+            "34_R_002_006"
+          ],
+          "literal_gloss": "调大冷风",
+          "pragmatic_meaning": "调大冷风",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (280).txt"
+        }
+      ],
+      "candidate_synonyms": []
+    },
+    {
+      "label": "拿瓶可乐",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_521956_57",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007829.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007830.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007831.jpg"
+          ],
+          "leaf_range": [
+            7829,
+            7831
+          ],
+          "display_labels": [
+            "34_R_002_012",
+            "34_R_002_013",
+            "34_R_002_014"
+          ],
+          "literal_gloss": "拿瓶可乐",
+          "pragmatic_meaning": "拿瓶可乐",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (280).txt"
+        }
+      ],
+      "candidate_synonyms": []
+    },
+    {
+      "label": "去浴室洗澡",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_527374_67",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007837.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007838.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007839.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007840.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007841.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007842.jpg"
+          ],
+          "leaf_range": [
+            7837,
+            7842
+          ],
+          "display_labels": [
+            "34_R_003_002",
+            "34_R_003_003",
+            "34_R_003_004",
+            "34_R_003_005",
+            "34_R_003_006",
+            "34_R_003_007"
+          ],
+          "literal_gloss": "去浴室洗澡",
+          "pragmatic_meaning": "去浴室洗澡",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (280).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "浴室"
+      ]
+    },
+    {
+      "label": "去衣帽间穿衣服",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_785142_11",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007893.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007894.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007895.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007896.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007897.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007898.jpg"
+          ],
+          "leaf_range": [
+            7893,
+            7898
+          ],
+          "display_labels": [
+            "34_R_006_009",
+            "34_R_006_010",
+            "34_R_006_011",
+            "34_R_006_012",
+            "34_R_006_013",
+            "34_R_006_014"
+          ],
+          "literal_gloss": "去衣帽间穿衣服",
+          "pragmatic_meaning": "去衣帽间穿衣服",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (280).txt"
+        }
+      ],
+      "candidate_synonyms": []
+    },
+    {
+      "label": "照镜子很满意",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_789688_34",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007911.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007912.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007913.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007914.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007915.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007916.jpg"
+          ],
+          "leaf_range": [
+            7911,
+            7916
+          ],
+          "display_labels": [
+            "35_L_001_012",
+            "35_L_001_013",
+            "35_L_001_014",
+            "35_L_001_015",
+            "35_L_001_016",
+            "35_L_001_017"
+          ],
+          "literal_gloss": "照镜子很满意",
+          "pragmatic_meaning": "照镜子很满意",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (280).txt"
+        }
+      ],
+      "candidate_synonyms": []
+    },
+    {
+      "label": "选好了口红",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_949230_93",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007952.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007953.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007954.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007955.jpg"
+          ],
+          "leaf_range": [
+            7952,
+            7955
+          ],
+          "display_labels": [
+            "35_L_004_002",
+            "35_L_004_003",
+            "35_L_004_004",
+            "35_L_004_005"
+          ],
+          "literal_gloss": "选好了口红",
+          "pragmatic_meaning": "选好了口红",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (280).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "选好了",
+        "选好"
+      ]
+    },
+    {
+      "label": "使用口红",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_951262_61",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007956.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007957.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007958.jpg"
+          ],
+          "leaf_range": [
+            7956,
+            7958
+          ],
+          "display_labels": [
+            "35_L_004_006",
+            "35_L_004_007",
+            "35_L_004_008"
+          ],
+          "literal_gloss": "使用口红",
+          "pragmatic_meaning": "使用口红",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (280).txt"
+        }
+      ],
+      "candidate_synonyms": []
+    },
+    {
+      "label": "选这双耐克鞋吗",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_067021_74",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/008011.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/008012.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/008013.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/008014.jpg"
+          ],
+          "leaf_range": [
+            8011,
+            8014
+          ],
+          "display_labels": [
+            "35_L_008_004",
+            "35_L_008_005",
+            "35_L_008_006",
+            "35_L_008_007"
+          ],
+          "literal_gloss": "选这双耐克鞋吗？",
+          "pragmatic_meaning": "选这双耐克鞋吗？",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (280).txt"
+        }
+      ],
+      "candidate_synonyms": []
+    },
+    {
+      "label": "还是选这",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_069205_51",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/008015.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/008016.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/008017.jpg"
+          ],
+          "leaf_range": [
+            8015,
+            8017
+          ],
+          "display_labels": [
+            "35_L_008_008",
+            "35_L_008_009",
+            "35_L_008_010"
+          ],
+          "literal_gloss": "还是选这双阿迪达斯鞋吗？",
+          "pragmatic_meaning": "还是选这双阿迪达斯鞋吗？",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (280).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "双阿迪达",
+        "斯鞋吗"
+      ]
+    },
+    {
+      "label": "双阿迪达",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_069205_51",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/008015.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/008016.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/008017.jpg"
+          ],
+          "leaf_range": [
+            8015,
+            8017
+          ],
+          "display_labels": [
+            "35_L_008_008",
+            "35_L_008_009",
+            "35_L_008_010"
+          ],
+          "literal_gloss": "还是选这双阿迪达斯鞋吗？",
+          "pragmatic_meaning": "还是选这双阿迪达斯鞋吗？",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (280).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "还是选这",
+        "斯鞋吗"
+      ]
+    },
+    {
+      "label": "鳄鱼皮鞋吗",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_179263_42",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/008021.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/008022.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/008023.jpg"
+          ],
+          "leaf_range": [
+            8021,
+            8023
+          ],
+          "display_labels": [
+            "35_L_009_002",
+            "35_L_009_003",
+            "35_L_009_004"
+          ],
+          "literal_gloss": "鳄鱼皮鞋吗",
+          "pragmatic_meaning": "鳄鱼皮鞋吗",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (280).txt"
+        }
+      ],
+      "candidate_synonyms": []
+    }
+  ]
+}

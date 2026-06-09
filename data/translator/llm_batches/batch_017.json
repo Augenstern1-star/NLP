@@ -1,0 +1,1212 @@
+{
+  "batch_id": "batch_017",
+  "instruction": "Merge near-synonymous Chinese concept candidates, choose one readable label, keep only the strongest Dishu image targets, and write concise explanations plus possible misreadings. Return JSON with concept_id, label, synonyms, semantic_tags, explanation, possible_misreadings, and selected_target_ids.",
+  "candidates": [
+    {
+      "label": "案并且带",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_175642_81",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007636.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007637.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007638.jpg"
+          ],
+          "leaf_range": [
+            7636,
+            7638
+          ],
+          "display_labels": [
+            "33_R_001_005",
+            "33_R_001_006",
+            "33_R_001_007"
+          ],
+          "literal_gloss": "在档案室中找到档案并且带走",
+          "pragmatic_meaning": "到档案室翻找文件并带走",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "在档案室",
+        "中找到档",
+        "走",
+        "到档案室",
+        "翻找文件",
+        "并带走"
+      ]
+    },
+    {
+      "label": "到档案室",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_175642_81",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007636.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007637.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007638.jpg"
+          ],
+          "leaf_range": [
+            7636,
+            7638
+          ],
+          "display_labels": [
+            "33_R_001_005",
+            "33_R_001_006",
+            "33_R_001_007"
+          ],
+          "literal_gloss": "在档案室中找到档案并且带走",
+          "pragmatic_meaning": "到档案室翻找文件并带走",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "在档案室",
+        "中找到档",
+        "案并且带",
+        "走",
+        "翻找文件",
+        "并带走"
+      ]
+    },
+    {
+      "label": "翻找文件",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_175642_81",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007636.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007637.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007638.jpg"
+          ],
+          "leaf_range": [
+            7636,
+            7638
+          ],
+          "display_labels": [
+            "33_R_001_005",
+            "33_R_001_006",
+            "33_R_001_007"
+          ],
+          "literal_gloss": "在档案室中找到档案并且带走",
+          "pragmatic_meaning": "到档案室翻找文件并带走",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "在档案室",
+        "中找到档",
+        "案并且带",
+        "走",
+        "到档案室",
+        "并带走"
+      ]
+    },
+    {
+      "label": "箭头重影",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_302110_37",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007648.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007649.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007650.jpg"
+          ],
+          "leaf_range": [
+            7648,
+            7650
+          ],
+          "display_labels": [
+            "33_R_002_006",
+            "33_R_002_007",
+            "33_R_002_008"
+          ],
+          "literal_gloss": "箭头重影",
+          "pragmatic_meaning": "看鼠标重影",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "看鼠标重影"
+      ]
+    },
+    {
+      "label": "看文件重影",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_304554_33",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007652.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007653.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007654.jpg"
+          ],
+          "leaf_range": [
+            7652,
+            7654
+          ],
+          "display_labels": [
+            "33_R_002_010",
+            "33_R_002_011",
+            "33_R_002_012"
+          ],
+          "literal_gloss": "文件重影",
+          "pragmatic_meaning": "看文件重影",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "文件重影"
+      ]
+    },
+    {
+      "label": "应用重影",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_309197_46",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007656.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007657.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007658.jpg"
+          ],
+          "leaf_range": [
+            7656,
+            7658
+          ],
+          "display_labels": [
+            "33_R_002_014",
+            "33_R_002_015",
+            "33_R_002_016"
+          ],
+          "literal_gloss": "应用重影",
+          "pragmatic_meaning": "看应用重影",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "看应用重影"
+      ]
+    },
+    {
+      "label": "看应用重影",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_309197_46",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007656.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007657.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007658.jpg"
+          ],
+          "leaf_range": [
+            7656,
+            7658
+          ],
+          "display_labels": [
+            "33_R_002_014",
+            "33_R_002_015",
+            "33_R_002_016"
+          ],
+          "literal_gloss": "应用重影",
+          "pragmatic_meaning": "看应用重影",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "应用重影"
+      ]
+    },
+    {
+      "label": "验算数据",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_321889_60",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007639.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007640.jpg"
+          ],
+          "leaf_range": [
+            7639,
+            7640
+          ],
+          "display_labels": [
+            "33_R_001_008",
+            "33_R_001_009"
+          ],
+          "literal_gloss": "演算",
+          "pragmatic_meaning": "验算数据",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "演算"
+      ]
+    },
+    {
+      "label": "左眼看东西重影",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_345936_50",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007666.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007667.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007668.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007669.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007670.jpg"
+          ],
+          "leaf_range": [
+            7666,
+            7670
+          ],
+          "display_labels": [
+            "33_R_003_006",
+            "33_R_003_007",
+            "33_R_003_008",
+            "33_R_003_009",
+            "33_R_003_010"
+          ],
+          "literal_gloss": "左眼看东西重影",
+          "pragmatic_meaning": "左眼看显示屏重影",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "左眼看显示屏重影"
+      ]
+    },
+    {
+      "label": "左眼看显示屏重影",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_345936_50",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007666.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007667.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007668.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007669.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007670.jpg"
+          ],
+          "leaf_range": [
+            7666,
+            7670
+          ],
+          "display_labels": [
+            "33_R_003_006",
+            "33_R_003_007",
+            "33_R_003_008",
+            "33_R_003_009",
+            "33_R_003_010"
+          ],
+          "literal_gloss": "左眼看东西重影",
+          "pragmatic_meaning": "左眼看显示屏重影",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "左眼看东西重影"
+      ]
+    },
+    {
+      "label": "右眼更加严重",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_350126_0",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007672.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007673.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007674.jpg"
+          ],
+          "leaf_range": [
+            7672,
+            7674
+          ],
+          "display_labels": [
+            "33_R_003_012",
+            "33_R_003_013",
+            "33_R_003_014"
+          ],
+          "literal_gloss": "右眼更加严重",
+          "pragmatic_meaning": "右眼更加严重",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": []
+    },
+    {
+      "label": "哭着想死",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_370296_31",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007677.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007678.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007679.jpg"
+          ],
+          "leaf_range": [
+            7677,
+            7679
+          ],
+          "display_labels": [
+            "33_R_004_002",
+            "33_R_004_003",
+            "33_R_004_004"
+          ],
+          "literal_gloss": "哭着想死",
+          "pragmatic_meaning": "哭着想死",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": []
+    },
+    {
+      "label": "坐着腰疼",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_376113_50",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007681.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007682.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007683.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007684.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007685.jpg"
+          ],
+          "leaf_range": [
+            7681,
+            7685
+          ],
+          "display_labels": [
+            "33_R_004_006",
+            "33_R_004_007",
+            "33_R_004_008",
+            "33_R_004_009",
+            "33_R_004_010"
+          ],
+          "literal_gloss": "坐着腰疼",
+          "pragmatic_meaning": "坐着腰疼",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": []
+    },
+    {
+      "label": "想休息泡澡",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_392152_53",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007687.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007688.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007689.jpg"
+          ],
+          "leaf_range": [
+            7687,
+            7689
+          ],
+          "display_labels": [
+            "33_R_004_012",
+            "33_R_004_013",
+            "33_R_004_014"
+          ],
+          "literal_gloss": "想休息泡澡",
+          "pragmatic_meaning": "我想放假",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "我想放假"
+      ]
+    },
+    {
+      "label": "我想放假",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_392152_53",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007687.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007688.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007689.jpg"
+          ],
+          "leaf_range": [
+            7687,
+            7689
+          ],
+          "display_labels": [
+            "33_R_004_012",
+            "33_R_004_013",
+            "33_R_004_014"
+          ],
+          "literal_gloss": "想休息泡澡",
+          "pragmatic_meaning": "我想放假",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "想休息泡澡"
+      ]
+    },
+    {
+      "label": "偷看偷看",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_452697_94",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007692.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007693.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007694.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007695.jpg"
+          ],
+          "leaf_range": [
+            7692,
+            7695
+          ],
+          "display_labels": [
+            "33_R_005_002",
+            "33_R_005_003",
+            "33_R_005_004",
+            "33_R_005_005"
+          ],
+          "literal_gloss": "偷看",
+          "pragmatic_meaning": "偷看偷看",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "偷看"
+      ]
+    },
+    {
+      "label": "办公时在",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_500722_86",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007698.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007699.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007700.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007701.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007702.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007703.jpg"
+          ],
+          "leaf_range": [
+            7698,
+            7703
+          ],
+          "display_labels": [
+            "33_R_006_003",
+            "33_R_006_004",
+            "33_R_006_005",
+            "33_R_006_006",
+            "33_R_006_007",
+            "33_R_006_008"
+          ],
+          "literal_gloss": "办公时在想老板不论白天还是黑夜都逼迫我办公",
+          "pragmatic_meaning": "觉得老板不管白天还是晚上都在逼迫自己干活",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "想老板不",
+        "论白天还",
+        "是黑夜都",
+        "逼迫我办",
+        "觉得老板",
+        "不管白天",
+        "还是晚上",
+        "都在逼迫自己干活"
+      ]
+    },
+    {
+      "label": "想老板不",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_500722_86",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007698.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007699.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007700.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007701.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007702.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007703.jpg"
+          ],
+          "leaf_range": [
+            7698,
+            7703
+          ],
+          "display_labels": [
+            "33_R_006_003",
+            "33_R_006_004",
+            "33_R_006_005",
+            "33_R_006_006",
+            "33_R_006_007",
+            "33_R_006_008"
+          ],
+          "literal_gloss": "办公时在想老板不论白天还是黑夜都逼迫我办公",
+          "pragmatic_meaning": "觉得老板不管白天还是晚上都在逼迫自己干活",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "办公时在",
+        "论白天还",
+        "是黑夜都",
+        "逼迫我办",
+        "觉得老板",
+        "不管白天",
+        "还是晚上",
+        "都在逼迫自己干活"
+      ]
+    },
+    {
+      "label": "论白天还",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_500722_86",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007698.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007699.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007700.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007701.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007702.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007703.jpg"
+          ],
+          "leaf_range": [
+            7698,
+            7703
+          ],
+          "display_labels": [
+            "33_R_006_003",
+            "33_R_006_004",
+            "33_R_006_005",
+            "33_R_006_006",
+            "33_R_006_007",
+            "33_R_006_008"
+          ],
+          "literal_gloss": "办公时在想老板不论白天还是黑夜都逼迫我办公",
+          "pragmatic_meaning": "觉得老板不管白天还是晚上都在逼迫自己干活",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "办公时在",
+        "想老板不",
+        "是黑夜都",
+        "逼迫我办",
+        "觉得老板",
+        "不管白天",
+        "还是晚上",
+        "都在逼迫自己干活"
+      ]
+    },
+    {
+      "label": "是黑夜都",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_500722_86",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007698.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007699.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007700.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007701.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007702.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007703.jpg"
+          ],
+          "leaf_range": [
+            7698,
+            7703
+          ],
+          "display_labels": [
+            "33_R_006_003",
+            "33_R_006_004",
+            "33_R_006_005",
+            "33_R_006_006",
+            "33_R_006_007",
+            "33_R_006_008"
+          ],
+          "literal_gloss": "办公时在想老板不论白天还是黑夜都逼迫我办公",
+          "pragmatic_meaning": "觉得老板不管白天还是晚上都在逼迫自己干活",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "办公时在",
+        "想老板不",
+        "论白天还",
+        "逼迫我办",
+        "觉得老板",
+        "不管白天",
+        "还是晚上",
+        "都在逼迫自己干活"
+      ]
+    },
+    {
+      "label": "逼迫我办",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_500722_86",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007698.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007699.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007700.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007701.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007702.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007703.jpg"
+          ],
+          "leaf_range": [
+            7698,
+            7703
+          ],
+          "display_labels": [
+            "33_R_006_003",
+            "33_R_006_004",
+            "33_R_006_005",
+            "33_R_006_006",
+            "33_R_006_007",
+            "33_R_006_008"
+          ],
+          "literal_gloss": "办公时在想老板不论白天还是黑夜都逼迫我办公",
+          "pragmatic_meaning": "觉得老板不管白天还是晚上都在逼迫自己干活",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "办公时在",
+        "想老板不",
+        "论白天还",
+        "是黑夜都",
+        "觉得老板",
+        "不管白天",
+        "还是晚上",
+        "都在逼迫自己干活"
+      ]
+    },
+    {
+      "label": "觉得老板",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_500722_86",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007698.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007699.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007700.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007701.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007702.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007703.jpg"
+          ],
+          "leaf_range": [
+            7698,
+            7703
+          ],
+          "display_labels": [
+            "33_R_006_003",
+            "33_R_006_004",
+            "33_R_006_005",
+            "33_R_006_006",
+            "33_R_006_007",
+            "33_R_006_008"
+          ],
+          "literal_gloss": "办公时在想老板不论白天还是黑夜都逼迫我办公",
+          "pragmatic_meaning": "觉得老板不管白天还是晚上都在逼迫自己干活",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "办公时在",
+        "想老板不",
+        "论白天还",
+        "是黑夜都",
+        "逼迫我办",
+        "不管白天",
+        "还是晚上",
+        "都在逼迫自己干活"
+      ]
+    },
+    {
+      "label": "不管白天",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_500722_86",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007698.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007699.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007700.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007701.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007702.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007703.jpg"
+          ],
+          "leaf_range": [
+            7698,
+            7703
+          ],
+          "display_labels": [
+            "33_R_006_003",
+            "33_R_006_004",
+            "33_R_006_005",
+            "33_R_006_006",
+            "33_R_006_007",
+            "33_R_006_008"
+          ],
+          "literal_gloss": "办公时在想老板不论白天还是黑夜都逼迫我办公",
+          "pragmatic_meaning": "觉得老板不管白天还是晚上都在逼迫自己干活",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "办公时在",
+        "想老板不",
+        "论白天还",
+        "是黑夜都",
+        "逼迫我办",
+        "觉得老板",
+        "还是晚上",
+        "都在逼迫自己干活"
+      ]
+    },
+    {
+      "label": "还是晚上",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_500722_86",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007698.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007699.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007700.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007701.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007702.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007703.jpg"
+          ],
+          "leaf_range": [
+            7698,
+            7703
+          ],
+          "display_labels": [
+            "33_R_006_003",
+            "33_R_006_004",
+            "33_R_006_005",
+            "33_R_006_006",
+            "33_R_006_007",
+            "33_R_006_008"
+          ],
+          "literal_gloss": "办公时在想老板不论白天还是黑夜都逼迫我办公",
+          "pragmatic_meaning": "觉得老板不管白天还是晚上都在逼迫自己干活",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "办公时在",
+        "想老板不",
+        "论白天还",
+        "是黑夜都",
+        "逼迫我办",
+        "觉得老板",
+        "不管白天",
+        "都在逼迫自己干活"
+      ]
+    },
+    {
+      "label": "都在逼迫自己干活",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_500722_86",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007698.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007699.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007700.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007701.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007702.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007703.jpg"
+          ],
+          "leaf_range": [
+            7698,
+            7703
+          ],
+          "display_labels": [
+            "33_R_006_003",
+            "33_R_006_004",
+            "33_R_006_005",
+            "33_R_006_006",
+            "33_R_006_007",
+            "33_R_006_008"
+          ],
+          "literal_gloss": "办公时在想老板不论白天还是黑夜都逼迫我办公",
+          "pragmatic_meaning": "觉得老板不管白天还是晚上都在逼迫自己干活",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "办公时在",
+        "想老板不",
+        "论白天还",
+        "是黑夜都",
+        "逼迫我办",
+        "觉得老板",
+        "不管白天",
+        "还是晚上"
+      ]
+    },
+    {
+      "label": "老板坐了一天",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_532982_40",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007707.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007708.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007709.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007710.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007711.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007712.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007713.jpg"
+          ],
+          "leaf_range": [
+            7707,
+            7713
+          ],
+          "display_labels": [
+            "34_L_001_002",
+            "34_L_001_003",
+            "34_L_001_004",
+            "34_L_001_005",
+            "34_L_001_006",
+            "34_L_001_007",
+            "34_L_001_008"
+          ],
+          "literal_gloss": "老板坐了一天，给员工画大饼",
+          "pragmatic_meaning": "老板坐了一天，给员工画大饼",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "坐了",
+        "一天",
+        "给员工画大饼"
+      ]
+    },
+    {
+      "label": "给员工画大饼",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_532982_40",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007707.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007708.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007709.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007710.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007711.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007712.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007713.jpg"
+          ],
+          "leaf_range": [
+            7707,
+            7713
+          ],
+          "display_labels": [
+            "34_L_001_002",
+            "34_L_001_003",
+            "34_L_001_004",
+            "34_L_001_005",
+            "34_L_001_006",
+            "34_L_001_007",
+            "34_L_001_008"
+          ],
+          "literal_gloss": "老板坐了一天，给员工画大饼",
+          "pragmatic_meaning": "老板坐了一天，给员工画大饼",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "老板坐了一天"
+      ]
+    },
+    {
+      "label": "老板实际",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_541955_10",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007715.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007716.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007717.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007718.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007719.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007720.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007721.jpg"
+          ],
+          "leaf_range": [
+            7715,
+            7721
+          ],
+          "display_labels": [
+            "34_L_001_010",
+            "34_L_001_011",
+            "34_L_001_012",
+            "34_L_001_013",
+            "34_L_001_014",
+            "34_L_001_015",
+            "34_L_001_016"
+          ],
+          "literal_gloss": "老板实际是在逼迫员工干活",
+          "pragmatic_meaning": "老板实际是想逼迫员工干活",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "是在逼迫",
+        "员工干活",
+        "是想逼迫"
+      ]
+    },
+    {
+      "label": "是在逼迫",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_541955_10",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007715.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007716.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007717.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007718.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007719.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007720.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007721.jpg"
+          ],
+          "leaf_range": [
+            7715,
+            7721
+          ],
+          "display_labels": [
+            "34_L_001_010",
+            "34_L_001_011",
+            "34_L_001_012",
+            "34_L_001_013",
+            "34_L_001_014",
+            "34_L_001_015",
+            "34_L_001_016"
+          ],
+          "literal_gloss": "老板实际是在逼迫员工干活",
+          "pragmatic_meaning": "老板实际是想逼迫员工干活",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "老板实际",
+        "员工干活",
+        "是想逼迫"
+      ]
+    },
+    {
+      "label": "员工干活",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_541955_10",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007715.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007716.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007717.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007718.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007719.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007720.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007721.jpg"
+          ],
+          "leaf_range": [
+            7715,
+            7721
+          ],
+          "display_labels": [
+            "34_L_001_010",
+            "34_L_001_011",
+            "34_L_001_012",
+            "34_L_001_013",
+            "34_L_001_014",
+            "34_L_001_015",
+            "34_L_001_016"
+          ],
+          "literal_gloss": "老板实际是在逼迫员工干活",
+          "pragmatic_meaning": "老板实际是想逼迫员工干活",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "老板实际",
+        "是在逼迫",
+        "是想逼迫"
+      ]
+    }
+  ]
+}

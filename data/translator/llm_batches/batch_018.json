@@ -1,0 +1,375 @@
+{
+  "batch_id": "batch_018",
+  "instruction": "Merge near-synonymous Chinese concept candidates, choose one readable label, keep only the strongest Dishu image targets, and write concise explanations plus possible misreadings. Return JSON with concept_id, label, synonyms, semantic_tags, explanation, possible_misreadings, and selected_target_ids.",
+  "candidates": [
+    {
+      "label": "是想逼迫",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_541955_10",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007715.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007716.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007717.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007718.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007719.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007720.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007721.jpg"
+          ],
+          "leaf_range": [
+            7715,
+            7721
+          ],
+          "display_labels": [
+            "34_L_001_010",
+            "34_L_001_011",
+            "34_L_001_012",
+            "34_L_001_013",
+            "34_L_001_014",
+            "34_L_001_015",
+            "34_L_001_016"
+          ],
+          "literal_gloss": "老板实际是在逼迫员工干活",
+          "pragmatic_meaning": "老板实际是想逼迫员工干活",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "老板实际",
+        "是在逼迫",
+        "员工干活"
+      ]
+    },
+    {
+      "label": "成功逼迫",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_566953_83",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007725.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007726.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007727.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007728.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007729.jpg"
+          ],
+          "leaf_range": [
+            7725,
+            7729
+          ],
+          "display_labels": [
+            "34_L_002_002",
+            "34_L_002_003",
+            "34_L_002_004",
+            "34_L_002_005",
+            "34_L_002_006"
+          ],
+          "literal_gloss": "成功逼迫他进屋子里",
+          "pragmatic_meaning": "逼着他进小黑屋",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "他进屋子",
+        "逼着他进小黑屋"
+      ]
+    },
+    {
+      "label": "他进屋子",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_566953_83",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007725.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007726.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007727.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007728.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007729.jpg"
+          ],
+          "leaf_range": [
+            7725,
+            7729
+          ],
+          "display_labels": [
+            "34_L_002_002",
+            "34_L_002_003",
+            "34_L_002_004",
+            "34_L_002_005",
+            "34_L_002_006"
+          ],
+          "literal_gloss": "成功逼迫他进屋子里",
+          "pragmatic_meaning": "逼着他进小黑屋",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "成功逼迫",
+        "逼着他进小黑屋"
+      ]
+    },
+    {
+      "label": "逼着他进小黑屋",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_566953_83",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007725.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007726.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007727.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007728.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007729.jpg"
+          ],
+          "leaf_range": [
+            7725,
+            7729
+          ],
+          "display_labels": [
+            "34_L_002_002",
+            "34_L_002_003",
+            "34_L_002_004",
+            "34_L_002_005",
+            "34_L_002_006"
+          ],
+          "literal_gloss": "成功逼迫他进屋子里",
+          "pragmatic_meaning": "逼着他进小黑屋",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "成功逼迫",
+        "他进屋子"
+      ]
+    },
+    {
+      "label": "想着想着笑了",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_575611_48",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007735.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007736.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007737.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007738.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007739.jpg"
+          ],
+          "leaf_range": [
+            7735,
+            7739
+          ],
+          "display_labels": [
+            "34_L_003_002",
+            "34_L_003_003",
+            "34_L_003_004",
+            "34_L_003_005",
+            "34_L_003_006"
+          ],
+          "literal_gloss": "想着想着笑了",
+          "pragmatic_meaning": "想想就开心",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "想想就开心"
+      ]
+    },
+    {
+      "label": "想和对象去喝酒",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_579731_58",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007740.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007741.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007742.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007743.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007744.jpg"
+          ],
+          "leaf_range": [
+            7740,
+            7744
+          ],
+          "display_labels": [
+            "34_L_003_007",
+            "34_L_003_008",
+            "34_L_003_009",
+            "34_L_003_010",
+            "34_L_003_011"
+          ],
+          "literal_gloss": "想和对象去喝酒",
+          "pragmatic_meaning": "和对象喝酒",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "和对象喝酒"
+      ]
+    },
+    {
+      "label": "和对象喝酒",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_579731_58",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007740.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007741.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007742.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007743.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007744.jpg"
+          ],
+          "leaf_range": [
+            7740,
+            7744
+          ],
+          "display_labels": [
+            "34_L_003_007",
+            "34_L_003_008",
+            "34_L_003_009",
+            "34_L_003_010",
+            "34_L_003_011"
+          ],
+          "literal_gloss": "想和对象去喝酒",
+          "pragmatic_meaning": "和对象喝酒",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "想和对象去喝酒"
+      ]
+    },
+    {
+      "label": "逃出屋子",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_618373_72",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007748.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007749.jpg"
+          ],
+          "leaf_range": [
+            7748,
+            7749
+          ],
+          "display_labels": [
+            "34_L_004_002",
+            "34_L_004_003"
+          ],
+          "literal_gloss": "逃出屋子",
+          "pragmatic_meaning": "跑出门",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "跑出门"
+      ]
+    },
+    {
+      "label": "坐电梯跑",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_624917_14",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007756.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007757.jpg"
+          ],
+          "leaf_range": [
+            7756,
+            7757
+          ],
+          "display_labels": [
+            "34_L_004_010",
+            "34_L_004_011"
+          ],
+          "literal_gloss": "坐电梯跑",
+          "pragmatic_meaning": "坐电梯跑",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": []
+    },
+    {
+      "label": "从楼里跑出去",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_631104_57",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007762.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007763.jpg"
+          ],
+          "leaf_range": [
+            7762,
+            7763
+          ],
+          "display_labels": [
+            "34_L_005_002",
+            "34_L_005_003"
+          ],
+          "literal_gloss": "从楼里跑出去",
+          "pragmatic_meaning": "跑出楼",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "跑出楼"
+      ]
+    }
+  ]
+}

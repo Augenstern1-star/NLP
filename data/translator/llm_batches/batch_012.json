@@ -1,0 +1,1132 @@
+{
+  "batch_id": "batch_012",
+  "instruction": "Merge near-synonymous Chinese concept candidates, choose one readable label, keep only the strongest Dishu image targets, and write concise explanations plus possible misreadings. Return JSON with concept_id, label, synonyms, semantic_tags, explanation, possible_misreadings, and selected_target_ids.",
+  "candidates": [
+    {
+      "label": "想要拍死蚊子",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_766953_0",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011221.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011222.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011223.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011224.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011225.jpg"
+          ],
+          "leaf_range": [
+            11221,
+            11225
+          ],
+          "display_labels": [
+            "53_L_008_007",
+            "53_L_008_008",
+            "53_L_008_009",
+            "53_L_008_010",
+            "53_L_008_011"
+          ],
+          "literal_gloss": "想找拍子但拿了菜刀",
+          "pragmatic_meaning": "",
+          "free_translation": "想要拍死蚊子，然后拿了把菜刀",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "想找拍子",
+        "但拿了菜",
+        "然后拿了把菜刀"
+      ]
+    },
+    {
+      "label": "然后拿了把菜刀",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_766953_0",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011221.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011222.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011223.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011224.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011225.jpg"
+          ],
+          "leaf_range": [
+            11221,
+            11225
+          ],
+          "display_labels": [
+            "53_L_008_007",
+            "53_L_008_008",
+            "53_L_008_009",
+            "53_L_008_010",
+            "53_L_008_011"
+          ],
+          "literal_gloss": "想找拍子但拿了菜刀",
+          "pragmatic_meaning": "",
+          "free_translation": "想要拍死蚊子，然后拿了把菜刀",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "拿了",
+        "想找拍子",
+        "但拿了菜",
+        "想要拍死蚊子"
+      ]
+    },
+    {
+      "label": "挥刀砍向蚊子",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_772885_44",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011227.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011228.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011229.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011230.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011231.jpg"
+          ],
+          "leaf_range": [
+            11227,
+            11231
+          ],
+          "display_labels": [
+            "53_L_008_013",
+            "53_L_008_014",
+            "53_L_008_015",
+            "53_L_008_016",
+            "53_L_008_017"
+          ],
+          "literal_gloss": "挥刀砍向蚊子",
+          "pragmatic_meaning": "",
+          "free_translation": "菜刀挥向蚊子的方向",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "菜刀挥向",
+        "蚊子的方"
+      ]
+    },
+    {
+      "label": "菜刀挥向",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_772885_44",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011227.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011228.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011229.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011230.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011231.jpg"
+          ],
+          "leaf_range": [
+            11227,
+            11231
+          ],
+          "display_labels": [
+            "53_L_008_013",
+            "53_L_008_014",
+            "53_L_008_015",
+            "53_L_008_016",
+            "53_L_008_017"
+          ],
+          "literal_gloss": "挥刀砍向蚊子",
+          "pragmatic_meaning": "",
+          "free_translation": "菜刀挥向蚊子的方向",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "挥刀砍向蚊子",
+        "蚊子的方"
+      ]
+    },
+    {
+      "label": "蚊子的方",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_772885_44",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011227.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011228.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011229.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011230.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011231.jpg"
+          ],
+          "leaf_range": [
+            11227,
+            11231
+          ],
+          "display_labels": [
+            "53_L_008_013",
+            "53_L_008_014",
+            "53_L_008_015",
+            "53_L_008_016",
+            "53_L_008_017"
+          ],
+          "literal_gloss": "挥刀砍向蚊子",
+          "pragmatic_meaning": "",
+          "free_translation": "菜刀挥向蚊子的方向",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "挥刀砍向蚊子",
+        "菜刀挥向"
+      ]
+    },
+    {
+      "label": "怎么办呢",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_793682_34",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011267.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011268.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011269.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011270.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011271.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011272.jpg"
+          ],
+          "leaf_range": [
+            11267,
+            11272
+          ],
+          "display_labels": [
+            "53_L_010_011",
+            "53_L_010_012",
+            "53_L_010_013",
+            "53_L_010_014",
+            "53_L_010_015",
+            "53_L_010_016"
+          ],
+          "literal_gloss": "怎么办？",
+          "pragmatic_meaning": "",
+          "free_translation": "怎么办呢",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "怎么办"
+      ]
+    },
+    {
+      "label": "找来椅子",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_802416_8",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011276.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011277.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011278.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011279.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011280.jpg"
+          ],
+          "leaf_range": [
+            11276,
+            11280
+          ],
+          "display_labels": [
+            "53_R_001_004",
+            "53_R_001_005",
+            "53_R_001_006",
+            "53_R_001_007",
+            "53_R_001_008"
+          ],
+          "literal_gloss": "找来椅子",
+          "pragmatic_meaning": "",
+          "free_translation": "拿了高脚板凳和椅子",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "拿了高脚",
+        "板凳和椅"
+      ]
+    },
+    {
+      "label": "拿了高脚",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_802416_8",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011276.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011277.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011278.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011279.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011280.jpg"
+          ],
+          "leaf_range": [
+            11276,
+            11280
+          ],
+          "display_labels": [
+            "53_R_001_004",
+            "53_R_001_005",
+            "53_R_001_006",
+            "53_R_001_007",
+            "53_R_001_008"
+          ],
+          "literal_gloss": "找来椅子",
+          "pragmatic_meaning": "",
+          "free_translation": "拿了高脚板凳和椅子",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "找来椅子",
+        "板凳和椅"
+      ]
+    },
+    {
+      "label": "板凳和椅",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_802416_8",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011276.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011277.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011278.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011279.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011280.jpg"
+          ],
+          "leaf_range": [
+            11276,
+            11280
+          ],
+          "display_labels": [
+            "53_R_001_004",
+            "53_R_001_005",
+            "53_R_001_006",
+            "53_R_001_007",
+            "53_R_001_008"
+          ],
+          "literal_gloss": "找来椅子",
+          "pragmatic_meaning": "",
+          "free_translation": "拿了高脚板凳和椅子",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "找来椅子",
+        "拿了高脚"
+      ]
+    },
+    {
+      "label": "放在桌上垫高",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_804410_71",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011282.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011283.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011284.jpg"
+          ],
+          "leaf_range": [
+            11282,
+            11284
+          ],
+          "display_labels": [
+            "53_R_001_010",
+            "53_R_001_011",
+            "53_R_001_012"
+          ],
+          "literal_gloss": "爬上去",
+          "pragmatic_meaning": "",
+          "free_translation": "放在桌上垫高",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "爬上去"
+      ]
+    },
+    {
+      "label": "人站上去",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_807428_97",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011287.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011288.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011289.jpg"
+          ],
+          "leaf_range": [
+            11287,
+            11289
+          ],
+          "display_labels": [
+            "53_R_002_002",
+            "53_R_002_003",
+            "53_R_002_004"
+          ],
+          "literal_gloss": "站上去",
+          "pragmatic_meaning": "",
+          "free_translation": "人站上去",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "人站",
+        "站上去"
+      ]
+    },
+    {
+      "label": "用手拍蚊子",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_812607_4",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011291.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011292.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011293.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011294.jpg"
+          ],
+          "leaf_range": [
+            11291,
+            11294
+          ],
+          "display_labels": [
+            "53_R_002_006",
+            "53_R_002_007",
+            "53_R_002_008",
+            "53_R_002_009"
+          ],
+          "literal_gloss": "用手拍蚊子",
+          "pragmatic_meaning": "",
+          "free_translation": "用手拍蚊子",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": []
+    },
+    {
+      "label": "踮脚去拍蚊子",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_820334_73",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011313.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011314.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011315.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011316.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011317.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011318.jpg"
+          ],
+          "leaf_range": [
+            11313,
+            11318
+          ],
+          "display_labels": [
+            "53_R_003_002",
+            "53_R_003_003",
+            "53_R_003_004",
+            "53_R_003_005",
+            "53_R_003_006",
+            "53_R_003_007"
+          ],
+          "literal_gloss": "踮脚去拍蚊子",
+          "pragmatic_meaning": "",
+          "free_translation": "踮脚去拍蚊子",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": []
+    },
+    {
+      "label": "没拍到蚊子",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_822767_88",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011319.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011320.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011321.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011322.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011323.jpg"
+          ],
+          "leaf_range": [
+            11319,
+            11323
+          ],
+          "display_labels": [
+            "53_R_003_008",
+            "53_R_003_009",
+            "53_R_003_010",
+            "53_R_003_011",
+            "53_R_003_012"
+          ],
+          "literal_gloss": "蚊子飞来飞去",
+          "pragmatic_meaning": "",
+          "free_translation": "没拍到蚊子，又飞跑了",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "蚊子飞来飞去",
+        "又飞跑了"
+      ]
+    },
+    {
+      "label": "又飞跑了",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_822767_88",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011319.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011320.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011321.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011322.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011323.jpg"
+          ],
+          "leaf_range": [
+            11319,
+            11323
+          ],
+          "display_labels": [
+            "53_R_003_008",
+            "53_R_003_009",
+            "53_R_003_010",
+            "53_R_003_011",
+            "53_R_003_012"
+          ],
+          "literal_gloss": "蚊子飞来飞去",
+          "pragmatic_meaning": "",
+          "free_translation": "没拍到蚊子，又飞跑了",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "蚊子飞来飞去",
+        "没拍到蚊子"
+      ]
+    },
+    {
+      "label": "保持不动",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_829198_31",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011336.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011337.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011338.jpg"
+          ],
+          "leaf_range": [
+            11336,
+            11338
+          ],
+          "display_labels": [
+            "53_R_004_002",
+            "53_R_004_003",
+            "53_R_004_004"
+          ],
+          "literal_gloss": "保持不动",
+          "pragmatic_meaning": "",
+          "free_translation": "思考了一下",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "思考了一下"
+      ]
+    },
+    {
+      "label": "有一段时间",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_831390_44",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011339.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011340.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011341.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011342.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011343.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011344.jpg"
+          ],
+          "leaf_range": [
+            11339,
+            11344
+          ],
+          "display_labels": [
+            "53_R_004_005",
+            "53_R_004_006",
+            "53_R_004_007",
+            "53_R_004_008",
+            "53_R_004_009",
+            "53_R_004_010"
+          ],
+          "literal_gloss": "很长一段时间",
+          "pragmatic_meaning": "",
+          "free_translation": "有一段时间",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "很长一段时间",
+        "一度"
+      ]
+    },
+    {
+      "label": "揉了一下眼睛",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_917337_77",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007643.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007644.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007645.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007646.jpg"
+          ],
+          "leaf_range": [
+            7643,
+            7646
+          ],
+          "display_labels": [
+            "33_R_002_001",
+            "33_R_002_002",
+            "33_R_002_003",
+            "33_R_002_004"
+          ],
+          "literal_gloss": "揉眼睛",
+          "pragmatic_meaning": "",
+          "free_translation": "揉了一下眼睛",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "揉眼睛"
+      ]
+    },
+    {
+      "label": "发现看东西重影",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_919855_89",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007648.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007649.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007650.jpg"
+          ],
+          "leaf_range": [
+            7648,
+            7650
+          ],
+          "display_labels": [
+            "33_R_002_006",
+            "33_R_002_007",
+            "33_R_002_008"
+          ],
+          "literal_gloss": "重影",
+          "pragmatic_meaning": "",
+          "free_translation": "发现看东西重影",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "重影"
+      ]
+    },
+    {
+      "label": "还是重影",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_936431_88",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007662.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007663.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007664.jpg"
+          ],
+          "leaf_range": [
+            7662,
+            7664
+          ],
+          "display_labels": [
+            "33_R_003_002",
+            "33_R_003_003",
+            "33_R_003_004"
+          ],
+          "literal_gloss": "重影",
+          "pragmatic_meaning": "",
+          "free_translation": "还是重影",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "重影"
+      ]
+    },
+    {
+      "label": "挡右眼重影",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_947585_24",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007672.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007673.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007674.jpg"
+          ],
+          "leaf_range": [
+            7672,
+            7674
+          ],
+          "display_labels": [
+            "33_R_003_012",
+            "33_R_003_013",
+            "33_R_003_014"
+          ],
+          "literal_gloss": "挡右眼重影",
+          "pragmatic_meaning": "",
+          "free_translation": "遮挡住右眼也还是重影",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "遮挡住右",
+        "眼也还是",
+        "重影"
+      ]
+    },
+    {
+      "label": "遮挡住右",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_947585_24",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007672.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007673.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007674.jpg"
+          ],
+          "leaf_range": [
+            7672,
+            7674
+          ],
+          "display_labels": [
+            "33_R_003_012",
+            "33_R_003_013",
+            "33_R_003_014"
+          ],
+          "literal_gloss": "挡右眼重影",
+          "pragmatic_meaning": "",
+          "free_translation": "遮挡住右眼也还是重影",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "挡右眼重影",
+        "眼也还是",
+        "重影"
+      ]
+    },
+    {
+      "label": "眼也还是",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_947585_24",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007672.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007673.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007674.jpg"
+          ],
+          "leaf_range": [
+            7672,
+            7674
+          ],
+          "display_labels": [
+            "33_R_003_012",
+            "33_R_003_013",
+            "33_R_003_014"
+          ],
+          "literal_gloss": "挡右眼重影",
+          "pragmatic_meaning": "",
+          "free_translation": "遮挡住右眼也还是重影",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "挡右眼重影",
+        "遮挡住右",
+        "重影"
+      ]
+    },
+    {
+      "label": "挡左眼重影",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_953621_83",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007666.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007667.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007668.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007669.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007670.jpg"
+          ],
+          "leaf_range": [
+            7666,
+            7670
+          ],
+          "display_labels": [
+            "33_R_003_006",
+            "33_R_003_007",
+            "33_R_003_008",
+            "33_R_003_009",
+            "33_R_003_010"
+          ],
+          "literal_gloss": "挡左眼重影",
+          "pragmatic_meaning": "",
+          "free_translation": "遮挡住左眼看，重影",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "遮挡住左眼看",
+        "重影"
+      ]
+    },
+    {
+      "label": "遮挡住左眼看",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_953621_83",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007666.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007667.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007668.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007669.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007670.jpg"
+          ],
+          "leaf_range": [
+            7666,
+            7670
+          ],
+          "display_labels": [
+            "33_R_003_006",
+            "33_R_003_007",
+            "33_R_003_008",
+            "33_R_003_009",
+            "33_R_003_010"
+          ],
+          "literal_gloss": "挡左眼重影",
+          "pragmatic_meaning": "",
+          "free_translation": "遮挡住左眼看，重影",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "挡左眼重影",
+        "重影"
+      ]
+    },
+    {
+      "label": "觉得腰很疼",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_990865_50",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007681.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007682.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007683.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007684.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007685.jpg"
+          ],
+          "leaf_range": [
+            7681,
+            7685
+          ],
+          "display_labels": [
+            "33_R_004_006",
+            "33_R_004_007",
+            "33_R_004_008",
+            "33_R_004_009",
+            "33_R_004_010"
+          ],
+          "literal_gloss": "腰疼",
+          "pragmatic_meaning": "",
+          "free_translation": "觉得腰很疼",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "腰疼"
+      ]
+    },
+    {
+      "label": "觉得可能要死了",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_056687_66",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007677.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007678.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007679.jpg"
+          ],
+          "leaf_range": [
+            7677,
+            7679
+          ],
+          "display_labels": [
+            "33_R_004_002",
+            "33_R_004_003",
+            "33_R_004_004"
+          ],
+          "literal_gloss": "觉得可能要死了",
+          "pragmatic_meaning": "",
+          "free_translation": "在思考是不是要死了",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "在思考是",
+        "不是要死"
+      ]
+    },
+    {
+      "label": "在思考是",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_056687_66",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007677.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007678.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007679.jpg"
+          ],
+          "leaf_range": [
+            7677,
+            7679
+          ],
+          "display_labels": [
+            "33_R_004_002",
+            "33_R_004_003",
+            "33_R_004_004"
+          ],
+          "literal_gloss": "觉得可能要死了",
+          "pragmatic_meaning": "",
+          "free_translation": "在思考是不是要死了",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "觉得可能要死了",
+        "不是要死"
+      ]
+    },
+    {
+      "label": "不是要死",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_056687_66",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007677.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007678.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007679.jpg"
+          ],
+          "leaf_range": [
+            7677,
+            7679
+          ],
+          "display_labels": [
+            "33_R_004_002",
+            "33_R_004_003",
+            "33_R_004_004"
+          ],
+          "literal_gloss": "觉得可能要死了",
+          "pragmatic_meaning": "",
+          "free_translation": "在思考是不是要死了",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "觉得可能要死了",
+        "在思考是"
+      ]
+    },
+    {
+      "label": "很想要休息",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_078127_76",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007687.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007688.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007689.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007690.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007691.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007692.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007693.jpg"
+          ],
+          "leaf_range": [
+            7687,
+            7693
+          ],
+          "display_labels": [
+            "33_R_004_012",
+            "33_R_004_013",
+            "33_R_004_014",
+            "33_R_004_015",
+            "33_R_005_001",
+            "33_R_005_002",
+            "33_R_005_003"
+          ],
+          "literal_gloss": "想休息",
+          "pragmatic_meaning": "",
+          "free_translation": "很想要休息，躺下，泡澡和按摩",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "想休息",
+        "躺下",
+        "泡澡和按摩"
+      ]
+    }
+  ]
+}

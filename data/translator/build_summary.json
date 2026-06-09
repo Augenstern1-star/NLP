@@ -1,0 +1,9 @@
+{
+  "dishu_annotation_rows": 46494,
+  "dishu_targets": 23883,
+  "text_annotation_rows": 31181,
+  "concept_candidates": 13522,
+  "concept_index": 260,
+  "examples": 10,
+  "llm_batches": 18
+}

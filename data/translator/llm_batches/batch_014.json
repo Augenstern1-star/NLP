@@ -1,0 +1,1133 @@
+{
+  "batch_id": "batch_014",
+  "instruction": "Merge near-synonymous Chinese concept candidates, choose one readable label, keep only the strongest Dishu image targets, and write concise explanations plus possible misreadings. Return JSON with concept_id, label, synonyms, semantic_tags, explanation, possible_misreadings, and selected_target_ids.",
+  "candidates": [
+    {
+      "label": "终于走到家了",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_415418_21",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010758.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010759.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010760.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010761.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010762.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010763.jpg"
+          ],
+          "leaf_range": [
+            10758,
+            10763
+          ],
+          "display_labels": [
+            "50_L_001_002",
+            "50_L_001_003",
+            "50_L_001_004",
+            "50_L_001_005",
+            "50_L_001_006",
+            "50_L_001_007"
+          ],
+          "literal_gloss": "走到家",
+          "pragmatic_meaning": "",
+          "free_translation": "终于走到家了",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (21).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "走到家"
+      ]
+    },
+    {
+      "label": "去厕所淋浴",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_636686_94",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007837.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007838.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007839.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007840.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007841.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007842.jpg"
+          ],
+          "leaf_range": [
+            7837,
+            7842
+          ],
+          "display_labels": [
+            "34_R_003_002",
+            "34_R_003_003",
+            "34_R_003_004",
+            "34_R_003_005",
+            "34_R_003_006",
+            "34_R_003_007"
+          ],
+          "literal_gloss": "去厕所淋浴",
+          "pragmatic_meaning": "",
+          "free_translation": "男人去洗澡",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (246).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "男人去洗澡"
+      ]
+    },
+    {
+      "label": "男人去洗澡",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_636686_94",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007837.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007838.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007839.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007840.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007841.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007842.jpg"
+          ],
+          "leaf_range": [
+            7837,
+            7842
+          ],
+          "display_labels": [
+            "34_R_003_002",
+            "34_R_003_003",
+            "34_R_003_004",
+            "34_R_003_005",
+            "34_R_003_006",
+            "34_R_003_007"
+          ],
+          "literal_gloss": "去厕所淋浴",
+          "pragmatic_meaning": "",
+          "free_translation": "男人去洗澡",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (246).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "去厕所淋浴"
+      ]
+    },
+    {
+      "label": "打开了空调制冷",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_053804_18",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007813.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007814.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007815.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007816.jpg"
+          ],
+          "leaf_range": [
+            7813,
+            7816
+          ],
+          "display_labels": [
+            "34_R_001_010",
+            "34_R_001_011",
+            "34_R_001_012",
+            "34_R_001_013"
+          ],
+          "literal_gloss": "打开空调",
+          "pragmatic_meaning": "",
+          "free_translation": "打开了空调制冷",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (246).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "打开空调"
+      ]
+    },
+    {
+      "label": "猫在家里",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_470860_19",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010776.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010777.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010778.jpg"
+          ],
+          "leaf_range": [
+            10776,
+            10778
+          ],
+          "display_labels": [
+            "50_R_002_002",
+            "50_R_002_003",
+            "50_R_002_004"
+          ],
+          "literal_gloss": "晚上，家，猫",
+          "pragmatic_meaning": "",
+          "free_translation": "很晚了，猫在家里等着主人回家",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (22).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "在家",
+        "晚上",
+        "很晚了",
+        "等着主人",
+        "回家"
+      ]
+    },
+    {
+      "label": "等着主人",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_470860_19",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010776.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010777.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010778.jpg"
+          ],
+          "leaf_range": [
+            10776,
+            10778
+          ],
+          "display_labels": [
+            "50_R_002_002",
+            "50_R_002_003",
+            "50_R_002_004"
+          ],
+          "literal_gloss": "晚上，家，猫",
+          "pragmatic_meaning": "",
+          "free_translation": "很晚了，猫在家里等着主人回家",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (22).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "晚上",
+        "很晚了",
+        "猫在家里",
+        "回家"
+      ]
+    },
+    {
+      "label": "小猫走过来",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_474108_31",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010780.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010781.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010782.jpg"
+          ],
+          "leaf_range": [
+            10780,
+            10782
+          ],
+          "display_labels": [
+            "50_R_002_006",
+            "50_R_002_007",
+            "50_R_002_008"
+          ],
+          "literal_gloss": "小猫走过来",
+          "pragmatic_meaning": "",
+          "free_translation": "猫走向主人",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (22).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "猫走向主人"
+      ]
+    },
+    {
+      "label": "猫走向主人",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_474108_31",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010780.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010781.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010782.jpg"
+          ],
+          "leaf_range": [
+            10780,
+            10782
+          ],
+          "display_labels": [
+            "50_R_002_006",
+            "50_R_002_007",
+            "50_R_002_008"
+          ],
+          "literal_gloss": "小猫走过来",
+          "pragmatic_meaning": "",
+          "free_translation": "猫走向主人",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (22).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "小猫走过来"
+      ]
+    },
+    {
+      "label": "人进门了",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_476368_87",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010786.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010787.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010788.jpg"
+          ],
+          "leaf_range": [
+            10786,
+            10788
+          ],
+          "display_labels": [
+            "50_R_003_002",
+            "50_R_003_003",
+            "50_R_003_004"
+          ],
+          "literal_gloss": "走进去",
+          "pragmatic_meaning": "",
+          "free_translation": "人进门了",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (22).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "走进去"
+      ]
+    },
+    {
+      "label": "抚摸小猫",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_478892_34",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010791.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010792.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010793.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010794.jpg"
+          ],
+          "leaf_range": [
+            10791,
+            10794
+          ],
+          "display_labels": [
+            "50_R_004_002",
+            "50_R_004_003",
+            "50_R_004_004",
+            "50_R_004_005"
+          ],
+          "literal_gloss": "抚摸小猫",
+          "pragmatic_meaning": "",
+          "free_translation": "人去抚摸小猫",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (22).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "人去抚摸小猫"
+      ]
+    },
+    {
+      "label": "人去抚摸小猫",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_478892_34",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010791.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010792.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010793.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010794.jpg"
+          ],
+          "leaf_range": [
+            10791,
+            10794
+          ],
+          "display_labels": [
+            "50_R_004_002",
+            "50_R_004_003",
+            "50_R_004_004",
+            "50_R_004_005"
+          ],
+          "literal_gloss": "抚摸小猫",
+          "pragmatic_meaning": "",
+          "free_translation": "人去抚摸小猫",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (22).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "抚摸小猫"
+      ]
+    },
+    {
+      "label": "小猫开心",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_480701_52",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010796.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010797.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010798.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010799.jpg"
+          ],
+          "leaf_range": [
+            10796,
+            10799
+          ],
+          "display_labels": [
+            "50_R_004_007",
+            "50_R_004_008",
+            "50_R_004_009",
+            "50_R_004_010"
+          ],
+          "literal_gloss": "小猫开心",
+          "pragmatic_meaning": "",
+          "free_translation": "小猫很开心",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (22).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "小猫很开心"
+      ]
+    },
+    {
+      "label": "给小猫喂水",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_482423_88",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010801.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010802.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010803.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010804.jpg"
+          ],
+          "leaf_range": [
+            10801,
+            10804
+          ],
+          "display_labels": [
+            "50_R_004_012",
+            "50_R_004_013",
+            "50_R_004_014",
+            "50_R_004_015"
+          ],
+          "literal_gloss": "给小猫喂水",
+          "pragmatic_meaning": "",
+          "free_translation": "人给小猫喂水",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (22).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "人给小猫喂水"
+      ]
+    },
+    {
+      "label": "人给小猫喂水",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_482423_88",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010801.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010802.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010803.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010804.jpg"
+          ],
+          "leaf_range": [
+            10801,
+            10804
+          ],
+          "display_labels": [
+            "50_R_004_012",
+            "50_R_004_013",
+            "50_R_004_014",
+            "50_R_004_015"
+          ],
+          "literal_gloss": "给小猫喂水",
+          "pragmatic_meaning": "",
+          "free_translation": "人给小猫喂水",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (22).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "给小猫喂水"
+      ]
+    },
+    {
+      "label": "人走进房间",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_488995_86",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010820.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010821.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010822.jpg"
+          ],
+          "leaf_range": [
+            10820,
+            10822
+          ],
+          "display_labels": [
+            "50_R_006_002",
+            "50_R_006_003",
+            "50_R_006_004"
+          ],
+          "literal_gloss": "人走进房间",
+          "pragmatic_meaning": "",
+          "free_translation": "人走进房间",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (22).txt"
+        }
+      ],
+      "candidate_synonyms": []
+    },
+    {
+      "label": "电视机在",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_508992_90",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010854.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010855.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010856.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010857.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010858.jpg"
+          ],
+          "leaf_range": [
+            10854,
+            10858
+          ],
+          "display_labels": [
+            "50_R_008_002",
+            "50_R_008_003",
+            "50_R_008_004",
+            "50_R_008_005",
+            "50_R_008_006"
+          ],
+          "literal_gloss": "放打仗",
+          "pragmatic_meaning": "",
+          "free_translation": "电视机在播放打仗的视频",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (22).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "放打仗",
+        "播放打仗",
+        "的视频"
+      ]
+    },
+    {
+      "label": "播放打仗",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_508992_90",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010854.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010855.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010856.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010857.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010858.jpg"
+          ],
+          "leaf_range": [
+            10854,
+            10858
+          ],
+          "display_labels": [
+            "50_R_008_002",
+            "50_R_008_003",
+            "50_R_008_004",
+            "50_R_008_005",
+            "50_R_008_006"
+          ],
+          "literal_gloss": "放打仗",
+          "pragmatic_meaning": "",
+          "free_translation": "电视机在播放打仗的视频",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (22).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "放打仗",
+        "电视机在",
+        "的视频"
+      ]
+    },
+    {
+      "label": "用遥控器换了台",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_524453_96",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010864.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010865.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010866.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010867.jpg"
+          ],
+          "leaf_range": [
+            10864,
+            10867
+          ],
+          "display_labels": [
+            "51_L_001_002",
+            "51_L_001_003",
+            "51_L_001_004",
+            "51_L_001_005"
+          ],
+          "literal_gloss": "换台",
+          "pragmatic_meaning": "",
+          "free_translation": "用遥控器换了台",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (22).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "换了",
+        "换台"
+      ]
+    },
+    {
+      "label": "看到有不",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_554568_52",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010919.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010920.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010921.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010922.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010923.jpg"
+          ],
+          "leaf_range": [
+            10919,
+            10923
+          ],
+          "display_labels": [
+            "51_L_005_007",
+            "51_L_005_008",
+            "51_L_005_009",
+            "51_L_005_010",
+            "51_L_005_011"
+          ],
+          "literal_gloss": "去森林",
+          "pragmatic_meaning": "",
+          "free_translation": "看到有不法分子进入森林",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (22).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "去森林",
+        "法分子进",
+        "入森林"
+      ]
+    },
+    {
+      "label": "法分子进",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_554568_52",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010919.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010920.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010921.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010922.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010923.jpg"
+          ],
+          "leaf_range": [
+            10919,
+            10923
+          ],
+          "display_labels": [
+            "51_L_005_007",
+            "51_L_005_008",
+            "51_L_005_009",
+            "51_L_005_010",
+            "51_L_005_011"
+          ],
+          "literal_gloss": "去森林",
+          "pragmatic_meaning": "",
+          "free_translation": "看到有不法分子进入森林",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (22).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "去森林",
+        "看到有不",
+        "入森林"
+      ]
+    },
+    {
+      "label": "不知道看什么",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_575573_41",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010972.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010973.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010974.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010975.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010976.jpg"
+          ],
+          "leaf_range": [
+            10972,
+            10976
+          ],
+          "display_labels": [
+            "51_L_009_006",
+            "51_L_009_007",
+            "51_L_009_008",
+            "51_L_009_009",
+            "51_L_009_010"
+          ],
+          "literal_gloss": "不知道看什么",
+          "pragmatic_meaning": "",
+          "free_translation": "电视机不知道在播放什么了",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (22).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "电视机不",
+        "知道在播",
+        "放什么了"
+      ]
+    },
+    {
+      "label": "电视机不",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_575573_41",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010972.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010973.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010974.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010975.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010976.jpg"
+          ],
+          "leaf_range": [
+            10972,
+            10976
+          ],
+          "display_labels": [
+            "51_L_009_006",
+            "51_L_009_007",
+            "51_L_009_008",
+            "51_L_009_009",
+            "51_L_009_010"
+          ],
+          "literal_gloss": "不知道看什么",
+          "pragmatic_meaning": "",
+          "free_translation": "电视机不知道在播放什么了",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (22).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "不知道看什么",
+        "知道在播",
+        "放什么了"
+      ]
+    },
+    {
+      "label": "知道在播",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_575573_41",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010972.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010973.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010974.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010975.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010976.jpg"
+          ],
+          "leaf_range": [
+            10972,
+            10976
+          ],
+          "display_labels": [
+            "51_L_009_006",
+            "51_L_009_007",
+            "51_L_009_008",
+            "51_L_009_009",
+            "51_L_009_010"
+          ],
+          "literal_gloss": "不知道看什么",
+          "pragmatic_meaning": "",
+          "free_translation": "电视机不知道在播放什么了",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (22).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "不知道看什么",
+        "电视机不",
+        "放什么了"
+      ]
+    },
+    {
+      "label": "放什么了",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_575573_41",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010972.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010973.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010974.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010975.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010976.jpg"
+          ],
+          "leaf_range": [
+            10972,
+            10976
+          ],
+          "display_labels": [
+            "51_L_009_006",
+            "51_L_009_007",
+            "51_L_009_008",
+            "51_L_009_009",
+            "51_L_009_010"
+          ],
+          "literal_gloss": "不知道看什么",
+          "pragmatic_meaning": "",
+          "free_translation": "电视机不知道在播放什么了",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (22).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "不知道看什么",
+        "电视机不",
+        "知道在播"
+      ]
+    },
+    {
+      "label": "慢慢的闭上了眼睛",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_582531_81",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010982.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010983.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010984.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010985.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010986.jpg"
+          ],
+          "leaf_range": [
+            10982,
+            10986
+          ],
+          "display_labels": [
+            "51_L_010_004",
+            "51_L_010_005",
+            "51_L_010_006",
+            "51_L_010_007",
+            "51_L_010_008"
+          ],
+          "literal_gloss": "闭眼",
+          "pragmatic_meaning": "",
+          "free_translation": "慢慢的闭上了眼睛",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (22).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "闭眼"
+      ]
+    },
+    {
+      "label": "电视机还在播放中",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_593613_68",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010990.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010991.jpg"
+          ],
+          "leaf_range": [
+            10990,
+            10991
+          ],
+          "display_labels": [
+            "51_L_010_012",
+            "51_L_010_013"
+          ],
+          "literal_gloss": "电视还在放。。",
+          "pragmatic_meaning": "",
+          "free_translation": "电视机还在播放中。。",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (22).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "电视还在放"
+      ]
+    },
+    {
+      "label": "人也开心",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_656925_88",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010807.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010808.jpg"
+          ],
+          "leaf_range": [
+            10807,
+            10808
+          ],
+          "display_labels": [
+            "50_R_005_002",
+            "50_R_005_003"
+          ],
+          "literal_gloss": "人开心",
+          "pragmatic_meaning": "",
+          "free_translation": "人也开心",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (22).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "人开心"
+      ]
+    },
+    {
+      "label": "上厕所沐浴",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_191567_40",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007887.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007888.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007889.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007890.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007891.jpg"
+          ],
+          "leaf_range": [
+            7887,
+            7891
+          ],
+          "display_labels": [
+            "34_R_006_003",
+            "34_R_006_004",
+            "34_R_006_005",
+            "34_R_006_006",
+            "34_R_006_007"
+          ],
+          "literal_gloss": "",
+          "pragmatic_meaning": "上厕所沐浴",
+          "free_translation": "她回家，先去卫生间上厕所然后沐浴",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (255).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "她回家",
+        "先去卫生",
+        "间上厕所",
+        "然后沐浴"
+      ]
+    },
+    {
+      "label": "先去卫生",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_191567_40",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007887.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007888.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007889.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007890.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007891.jpg"
+          ],
+          "leaf_range": [
+            7887,
+            7891
+          ],
+          "display_labels": [
+            "34_R_006_003",
+            "34_R_006_004",
+            "34_R_006_005",
+            "34_R_006_006",
+            "34_R_006_007"
+          ],
+          "literal_gloss": "",
+          "pragmatic_meaning": "上厕所沐浴",
+          "free_translation": "她回家，先去卫生间上厕所然后沐浴",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (255).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "上厕所沐浴",
+        "她回家",
+        "间上厕所",
+        "然后沐浴"
+      ]
+    },
+    {
+      "label": "间上厕所",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_191567_40",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007887.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007888.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007889.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007890.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007891.jpg"
+          ],
+          "leaf_range": [
+            7887,
+            7891
+          ],
+          "display_labels": [
+            "34_R_006_003",
+            "34_R_006_004",
+            "34_R_006_005",
+            "34_R_006_006",
+            "34_R_006_007"
+          ],
+          "literal_gloss": "",
+          "pragmatic_meaning": "上厕所沐浴",
+          "free_translation": "她回家，先去卫生间上厕所然后沐浴",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (255).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "上厕所沐浴",
+        "她回家",
+        "先去卫生",
+        "然后沐浴"
+      ]
+    }
+  ]
+}

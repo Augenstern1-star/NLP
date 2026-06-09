@@ -1,0 +1,1147 @@
+{
+  "batch_id": "batch_011",
+  "instruction": "Merge near-synonymous Chinese concept candidates, choose one readable label, keep only the strongest Dishu image targets, and write concise explanations plus possible misreadings. Return JSON with concept_id, label, synonyms, semantic_tags, explanation, possible_misreadings, and selected_target_ids.",
+  "candidates": [
+    {
+      "label": "嗡地在耳",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_631986_57",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011024.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011025.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011026.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011027.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011028.jpg"
+          ],
+          "leaf_range": [
+            11024,
+            11028
+          ],
+          "display_labels": [
+            "52_R_002_002",
+            "52_R_002_003",
+            "52_R_002_004",
+            "52_R_002_005",
+            "52_R_002_006"
+          ],
+          "literal_gloss": "有蚊子在耳边嗡嗡嗡",
+          "pragmatic_meaning": "",
+          "free_translation": "蚊子嗡嗡嗡地在耳边吵",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "有蚊子在",
+        "耳边嗡嗡",
+        "蚊子嗡嗡",
+        "边吵"
+      ]
+    },
+    {
+      "label": "烦不胜烦",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_635072_62",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011034.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011035.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011036.jpg"
+          ],
+          "leaf_range": [
+            11034,
+            11036
+          ],
+          "display_labels": [
+            "52_R_002_012",
+            "52_R_002_013",
+            "52_R_002_014"
+          ],
+          "literal_gloss": "烦不胜烦",
+          "pragmatic_meaning": "",
+          "free_translation": "感到烦躁",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "感到烦躁"
+      ]
+    },
+    {
+      "label": "用手去拍打蚊子",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_639149_25",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011040.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011041.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011042.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011043.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011044.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011045.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011046.jpg"
+          ],
+          "leaf_range": [
+            11040,
+            11046
+          ],
+          "display_labels": [
+            "52_R_003_002",
+            "52_R_003_003",
+            "52_R_003_004",
+            "52_R_003_005",
+            "52_R_003_006",
+            "52_R_003_007",
+            "52_R_003_008"
+          ],
+          "literal_gloss": "打蚊子",
+          "pragmatic_meaning": "",
+          "free_translation": "用手去拍打蚊子",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "打蚊子"
+      ]
+    },
+    {
+      "label": "喷驱虫水",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_653326_93",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011056.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011057.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011058.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011059.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011060.jpg"
+          ],
+          "leaf_range": [
+            11056,
+            11060
+          ],
+          "display_labels": [
+            "52_R_003_018",
+            "52_R_003_019",
+            "52_R_003_020",
+            "52_R_003_021",
+            "52_R_003_022"
+          ],
+          "literal_gloss": "喷驱虫水",
+          "pragmatic_meaning": "",
+          "free_translation": "使用驱蚊水去喷蚊子",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "使用驱蚊",
+        "水去喷蚊"
+      ]
+    },
+    {
+      "label": "使用驱蚊",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_653326_93",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011056.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011057.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011058.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011059.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011060.jpg"
+          ],
+          "leaf_range": [
+            11056,
+            11060
+          ],
+          "display_labels": [
+            "52_R_003_018",
+            "52_R_003_019",
+            "52_R_003_020",
+            "52_R_003_021",
+            "52_R_003_022"
+          ],
+          "literal_gloss": "喷驱虫水",
+          "pragmatic_meaning": "",
+          "free_translation": "使用驱蚊水去喷蚊子",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "喷驱虫水",
+        "水去喷蚊"
+      ]
+    },
+    {
+      "label": "水去喷蚊",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_653326_93",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011056.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011057.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011058.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011059.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011060.jpg"
+          ],
+          "leaf_range": [
+            11056,
+            11060
+          ],
+          "display_labels": [
+            "52_R_003_018",
+            "52_R_003_019",
+            "52_R_003_020",
+            "52_R_003_021",
+            "52_R_003_022"
+          ],
+          "literal_gloss": "喷驱虫水",
+          "pragmatic_meaning": "",
+          "free_translation": "使用驱蚊水去喷蚊子",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "喷驱虫水",
+        "使用驱蚊"
+      ]
+    },
+    {
+      "label": "起床找衣服",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_664815_24",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011074.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011075.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011076.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011077.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011078.jpg"
+          ],
+          "leaf_range": [
+            11074,
+            11078
+          ],
+          "display_labels": [
+            "52_R_004_004",
+            "52_R_004_005",
+            "52_R_004_006",
+            "52_R_004_007",
+            "52_R_004_008"
+          ],
+          "literal_gloss": "起床找衣服",
+          "pragmatic_meaning": "",
+          "free_translation": "从床上起来，走到衣柜前",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "从床上起来",
+        "走到衣柜前"
+      ]
+    },
+    {
+      "label": "从床上起来",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_664815_24",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011074.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011075.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011076.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011077.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011078.jpg"
+          ],
+          "leaf_range": [
+            11074,
+            11078
+          ],
+          "display_labels": [
+            "52_R_004_004",
+            "52_R_004_005",
+            "52_R_004_006",
+            "52_R_004_007",
+            "52_R_004_008"
+          ],
+          "literal_gloss": "起床找衣服",
+          "pragmatic_meaning": "",
+          "free_translation": "从床上起来，走到衣柜前",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "起床找衣服",
+        "走到衣柜前"
+      ]
+    },
+    {
+      "label": "走到衣柜前",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_664815_24",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011074.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011075.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011076.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011077.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011078.jpg"
+          ],
+          "leaf_range": [
+            11074,
+            11078
+          ],
+          "display_labels": [
+            "52_R_004_004",
+            "52_R_004_005",
+            "52_R_004_006",
+            "52_R_004_007",
+            "52_R_004_008"
+          ],
+          "literal_gloss": "起床找衣服",
+          "pragmatic_meaning": "",
+          "free_translation": "从床上起来，走到衣柜前",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "起床找衣服",
+        "从床上起来"
+      ]
+    },
+    {
+      "label": "关掉电视机",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_677155_97",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011103.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011104.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011105.jpg"
+          ],
+          "leaf_range": [
+            11103,
+            11105
+          ],
+          "display_labels": [
+            "52_R_006_005",
+            "52_R_006_006",
+            "52_R_006_007"
+          ],
+          "literal_gloss": "关电视",
+          "pragmatic_meaning": "",
+          "free_translation": "关掉电视机",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "关电视",
+        "电视"
+      ]
+    },
+    {
+      "label": "闭上了双眼",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_685086_19",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011115.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011116.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011117.jpg"
+          ],
+          "leaf_range": [
+            11115,
+            11117
+          ],
+          "display_labels": [
+            "52_R_007_004",
+            "52_R_007_005",
+            "52_R_007_006"
+          ],
+          "literal_gloss": "闭眼",
+          "pragmatic_meaning": "",
+          "free_translation": "闭上了双眼",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "闭眼"
+      ]
+    },
+    {
+      "label": "开灯睁眼",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_693154_19",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011134.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011135.jpg"
+          ],
+          "leaf_range": [
+            11134,
+            11135
+          ],
+          "display_labels": [
+            "53_L_002_002",
+            "53_L_002_003"
+          ],
+          "literal_gloss": "开灯睁眼",
+          "pragmatic_meaning": "",
+          "free_translation": "打开了灯，睁开了眼睛",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "打开了灯",
+        "睁开了眼睛"
+      ]
+    },
+    {
+      "label": "打开了灯",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_693154_19",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011134.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011135.jpg"
+          ],
+          "leaf_range": [
+            11134,
+            11135
+          ],
+          "display_labels": [
+            "53_L_002_002",
+            "53_L_002_003"
+          ],
+          "literal_gloss": "开灯睁眼",
+          "pragmatic_meaning": "",
+          "free_translation": "打开了灯，睁开了眼睛",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "打开了",
+        "开灯睁眼",
+        "睁开了眼睛"
+      ]
+    },
+    {
+      "label": "寻找蚊子在哪里",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_694835_58",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011137.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011138.jpg"
+          ],
+          "leaf_range": [
+            11137,
+            11138
+          ],
+          "display_labels": [
+            "53_L_002_005",
+            "53_L_002_006"
+          ],
+          "literal_gloss": "四处张望",
+          "pragmatic_meaning": "",
+          "free_translation": "寻找蚊子在哪里",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "四处张望"
+      ]
+    },
+    {
+      "label": "开灯张望",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_701356_30",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011153.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011154.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011155.jpg"
+          ],
+          "leaf_range": [
+            11153,
+            11155
+          ],
+          "display_labels": [
+            "53_L_004_002",
+            "53_L_004_003",
+            "53_L_004_004"
+          ],
+          "literal_gloss": "开灯张望",
+          "pragmatic_meaning": "",
+          "free_translation": "打开灯，看向上方",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "打开灯",
+        "看向上方"
+      ]
+    },
+    {
+      "label": "看向上方",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_701356_30",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011153.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011154.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011155.jpg"
+          ],
+          "leaf_range": [
+            11153,
+            11155
+          ],
+          "display_labels": [
+            "53_L_004_002",
+            "53_L_004_003",
+            "53_L_004_004"
+          ],
+          "literal_gloss": "开灯张望",
+          "pragmatic_meaning": "",
+          "free_translation": "打开灯，看向上方",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "开灯张望",
+        "打开灯"
+      ]
+    },
+    {
+      "label": "蚊子正发出声音",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_725066_36",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011156.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011157.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011158.jpg"
+          ],
+          "leaf_range": [
+            11156,
+            11158
+          ],
+          "display_labels": [
+            "53_L_004_005",
+            "53_L_004_006",
+            "53_L_004_007"
+          ],
+          "literal_gloss": "蚊子",
+          "pragmatic_meaning": "",
+          "free_translation": "蚊子正发出声音",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "蚊子"
+      ]
+    },
+    {
+      "label": "上下上下",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_732497_16",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011159.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011160.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011161.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011162.jpg"
+          ],
+          "leaf_range": [
+            11159,
+            11162
+          ],
+          "display_labels": [
+            "53_L_004_008",
+            "53_L_004_009",
+            "53_L_004_010",
+            "53_L_004_011"
+          ],
+          "literal_gloss": "飞上飞下",
+          "pragmatic_meaning": "",
+          "free_translation": "上下上下",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "飞上飞下"
+      ]
+    },
+    {
+      "label": "烦到起床",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_739247_17",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011174.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011175.jpg"
+          ],
+          "leaf_range": [
+            11174,
+            11175
+          ],
+          "display_labels": [
+            "53_L_005_011",
+            "53_L_005_012"
+          ],
+          "literal_gloss": "烦到起床",
+          "pragmatic_meaning": "",
+          "free_translation": "烦躁，从床上坐起身",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "烦躁",
+        "从床上坐起身"
+      ]
+    },
+    {
+      "label": "从床上坐起身",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_739247_17",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011174.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011175.jpg"
+          ],
+          "leaf_range": [
+            11174,
+            11175
+          ],
+          "display_labels": [
+            "53_L_005_011",
+            "53_L_005_012"
+          ],
+          "literal_gloss": "烦到起床",
+          "pragmatic_meaning": "",
+          "free_translation": "烦躁，从床上坐起身",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "烦到起床",
+        "烦躁"
+      ]
+    },
+    {
+      "label": "并拿起驱",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_744833_60",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011179.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011180.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011181.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011182.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011183.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011184.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011185.jpg"
+          ],
+          "leaf_range": [
+            11179,
+            11185
+          ],
+          "display_labels": [
+            "53_L_006_002",
+            "53_L_006_003",
+            "53_L_006_004",
+            "53_L_006_005",
+            "53_L_006_006",
+            "53_L_006_007",
+            "53_L_006_008"
+          ],
+          "literal_gloss": "咒骂，并拿起驱蚊水喷向蚊子",
+          "pragmatic_meaning": "",
+          "free_translation": "一边咒骂，一边拿驱蚊水喷向蚊子",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "咒骂",
+        "蚊水喷向",
+        "蚊子",
+        "一边咒骂",
+        "一边拿驱"
+      ]
+    },
+    {
+      "label": "蚊水喷向",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_744833_60",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011179.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011180.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011181.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011182.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011183.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011184.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011185.jpg"
+          ],
+          "leaf_range": [
+            11179,
+            11185
+          ],
+          "display_labels": [
+            "53_L_006_002",
+            "53_L_006_003",
+            "53_L_006_004",
+            "53_L_006_005",
+            "53_L_006_006",
+            "53_L_006_007",
+            "53_L_006_008"
+          ],
+          "literal_gloss": "咒骂，并拿起驱蚊水喷向蚊子",
+          "pragmatic_meaning": "",
+          "free_translation": "一边咒骂，一边拿驱蚊水喷向蚊子",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "咒骂",
+        "并拿起驱",
+        "蚊子",
+        "一边咒骂",
+        "一边拿驱"
+      ]
+    },
+    {
+      "label": "一边咒骂",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_744833_60",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011179.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011180.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011181.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011182.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011183.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011184.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011185.jpg"
+          ],
+          "leaf_range": [
+            11179,
+            11185
+          ],
+          "display_labels": [
+            "53_L_006_002",
+            "53_L_006_003",
+            "53_L_006_004",
+            "53_L_006_005",
+            "53_L_006_006",
+            "53_L_006_007",
+            "53_L_006_008"
+          ],
+          "literal_gloss": "咒骂，并拿起驱蚊水喷向蚊子",
+          "pragmatic_meaning": "",
+          "free_translation": "一边咒骂，一边拿驱蚊水喷向蚊子",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "一边",
+        "咒骂",
+        "并拿起驱",
+        "蚊水喷向",
+        "蚊子",
+        "一边拿驱"
+      ]
+    },
+    {
+      "label": "一边拿驱",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_744833_60",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011179.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011180.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011181.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011182.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011183.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011184.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011185.jpg"
+          ],
+          "leaf_range": [
+            11179,
+            11185
+          ],
+          "display_labels": [
+            "53_L_006_002",
+            "53_L_006_003",
+            "53_L_006_004",
+            "53_L_006_005",
+            "53_L_006_006",
+            "53_L_006_007",
+            "53_L_006_008"
+          ],
+          "literal_gloss": "咒骂，并拿起驱蚊水喷向蚊子",
+          "pragmatic_meaning": "",
+          "free_translation": "一边咒骂，一边拿驱蚊水喷向蚊子",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "一边",
+        "咒骂",
+        "并拿起驱",
+        "蚊水喷向",
+        "蚊子",
+        "一边咒骂"
+      ]
+    },
+    {
+      "label": "在找声音",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_761267_41",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011210.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011211.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011212.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011213.jpg"
+          ],
+          "leaf_range": [
+            11210,
+            11213
+          ],
+          "display_labels": [
+            "53_L_007_015",
+            "53_L_007_016",
+            "53_L_007_017",
+            "53_L_007_018"
+          ],
+          "literal_gloss": "跪下了",
+          "pragmatic_meaning": "",
+          "free_translation": "在找声音发出来的地方",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "跪下了",
+        "发出来的",
+        "地方",
+        "在找"
+      ]
+    },
+    {
+      "label": "发出来的",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_761267_41",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011210.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011211.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011212.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011213.jpg"
+          ],
+          "leaf_range": [
+            11210,
+            11213
+          ],
+          "display_labels": [
+            "53_L_007_015",
+            "53_L_007_016",
+            "53_L_007_017",
+            "53_L_007_018"
+          ],
+          "literal_gloss": "跪下了",
+          "pragmatic_meaning": "",
+          "free_translation": "在找声音发出来的地方",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "跪下了",
+        "在找声音",
+        "地方"
+      ]
+    },
+    {
+      "label": "去找东西",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_763562_29",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011216.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011217.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011218.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011219.jpg"
+          ],
+          "leaf_range": [
+            11216,
+            11219
+          ],
+          "display_labels": [
+            "53_L_008_002",
+            "53_L_008_003",
+            "53_L_008_004",
+            "53_L_008_005"
+          ],
+          "literal_gloss": "去找东西",
+          "pragmatic_meaning": "",
+          "free_translation": "走去厨房",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "走去厨房"
+      ]
+    },
+    {
+      "label": "走去厨房",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_763562_29",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011216.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011217.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011218.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011219.jpg"
+          ],
+          "leaf_range": [
+            11216,
+            11219
+          ],
+          "display_labels": [
+            "53_L_008_002",
+            "53_L_008_003",
+            "53_L_008_004",
+            "53_L_008_005"
+          ],
+          "literal_gloss": "去找东西",
+          "pragmatic_meaning": "",
+          "free_translation": "走去厨房",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "去找东西"
+      ]
+    },
+    {
+      "label": "想找拍子",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_766953_0",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011221.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011222.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011223.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011224.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011225.jpg"
+          ],
+          "leaf_range": [
+            11221,
+            11225
+          ],
+          "display_labels": [
+            "53_L_008_007",
+            "53_L_008_008",
+            "53_L_008_009",
+            "53_L_008_010",
+            "53_L_008_011"
+          ],
+          "literal_gloss": "想找拍子但拿了菜刀",
+          "pragmatic_meaning": "",
+          "free_translation": "想要拍死蚊子，然后拿了把菜刀",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "但拿了菜",
+        "想要拍死蚊子",
+        "然后拿了把菜刀"
+      ]
+    },
+    {
+      "label": "但拿了菜",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_766953_0",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011221.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011222.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011223.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011224.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011225.jpg"
+          ],
+          "leaf_range": [
+            11221,
+            11225
+          ],
+          "display_labels": [
+            "53_L_008_007",
+            "53_L_008_008",
+            "53_L_008_009",
+            "53_L_008_010",
+            "53_L_008_011"
+          ],
+          "literal_gloss": "想找拍子但拿了菜刀",
+          "pragmatic_meaning": "",
+          "free_translation": "想要拍死蚊子，然后拿了把菜刀",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "拿了",
+        "想找拍子",
+        "想要拍死蚊子",
+        "然后拿了把菜刀"
+      ]
+    }
+  ]
+}

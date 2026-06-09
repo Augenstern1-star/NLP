@@ -1,0 +1,1141 @@
+{
+  "batch_id": "batch_013",
+  "instruction": "Merge near-synonymous Chinese concept candidates, choose one readable label, keep only the strongest Dishu image targets, and write concise explanations plus possible misreadings. Return JSON with concept_id, label, synonyms, semantic_tags, explanation, possible_misreadings, and selected_target_ids.",
+  "candidates": [
+    {
+      "label": "泡澡和按摩",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_078127_76",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007687.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007688.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007689.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007690.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007691.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007692.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007693.jpg"
+          ],
+          "leaf_range": [
+            7687,
+            7693
+          ],
+          "display_labels": [
+            "33_R_004_012",
+            "33_R_004_013",
+            "33_R_004_014",
+            "33_R_004_015",
+            "33_R_005_001",
+            "33_R_005_002",
+            "33_R_005_003"
+          ],
+          "literal_gloss": "想休息",
+          "pragmatic_meaning": "",
+          "free_translation": "很想要休息，躺下，泡澡和按摩",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "想休息",
+        "很想要休息",
+        "躺下"
+      ]
+    },
+    {
+      "label": "得到夸赞",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_107878_49",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007707.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007708.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007709.jpg"
+          ],
+          "leaf_range": [
+            7707,
+            7709
+          ],
+          "display_labels": [
+            "34_L_001_002",
+            "34_L_001_003",
+            "34_L_001_004"
+          ],
+          "literal_gloss": "得到夸赞",
+          "pragmatic_meaning": "",
+          "free_translation": "为了上司的夸奖？",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "为了上司的夸奖"
+      ]
+    },
+    {
+      "label": "为了上司的夸奖",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_107878_49",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007707.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007708.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007709.jpg"
+          ],
+          "leaf_range": [
+            7707,
+            7709
+          ],
+          "display_labels": [
+            "34_L_001_002",
+            "34_L_001_003",
+            "34_L_001_004"
+          ],
+          "literal_gloss": "得到夸赞",
+          "pragmatic_meaning": "",
+          "free_translation": "为了上司的夸奖？",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "得到夸赞"
+      ]
+    },
+    {
+      "label": "完成任务",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_118124_68",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007719.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007720.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007721.jpg"
+          ],
+          "leaf_range": [
+            7719,
+            7721
+          ],
+          "display_labels": [
+            "34_L_001_014",
+            "34_L_001_015",
+            "34_L_001_016"
+          ],
+          "literal_gloss": "完成任务",
+          "pragmatic_meaning": "",
+          "free_translation": "只要完成工作，就可以回家了",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (25).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "只要完成工作",
+        "就可以回家了"
+      ]
+    },
+    {
+      "label": "只要完成工作",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_118124_68",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007719.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007720.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007721.jpg"
+          ],
+          "leaf_range": [
+            7719,
+            7721
+          ],
+          "display_labels": [
+            "34_L_001_014",
+            "34_L_001_015",
+            "34_L_001_016"
+          ],
+          "literal_gloss": "完成任务",
+          "pragmatic_meaning": "",
+          "free_translation": "只要完成工作，就可以回家了",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (25).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "完成任务",
+        "就可以回家了"
+      ]
+    },
+    {
+      "label": "就可以回家了",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_118124_68",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007719.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007720.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007721.jpg"
+          ],
+          "leaf_range": [
+            7719,
+            7721
+          ],
+          "display_labels": [
+            "34_L_001_014",
+            "34_L_001_015",
+            "34_L_001_016"
+          ],
+          "literal_gloss": "完成任务",
+          "pragmatic_meaning": "",
+          "free_translation": "只要完成工作，就可以回家了",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (25).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "完成任务",
+        "只要完成工作"
+      ]
+    },
+    {
+      "label": "跟对象喝酒",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_134973_16",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007740.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007741.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007742.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007743.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007744.jpg"
+          ],
+          "leaf_range": [
+            7740,
+            7744
+          ],
+          "display_labels": [
+            "34_L_003_007",
+            "34_L_003_008",
+            "34_L_003_009",
+            "34_L_003_010",
+            "34_L_003_011"
+          ],
+          "literal_gloss": "跟对象喝酒",
+          "pragmatic_meaning": "",
+          "free_translation": "想和对象一起喝红酒",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "她",
+        "想和对象",
+        "一起喝红",
+        "地球",
+        "云朵",
+        "卫生间"
+      ]
+    },
+    {
+      "label": "想和对象",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_134973_16",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007740.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007741.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007742.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007743.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007744.jpg"
+          ],
+          "leaf_range": [
+            7740,
+            7744
+          ],
+          "display_labels": [
+            "34_L_003_007",
+            "34_L_003_008",
+            "34_L_003_009",
+            "34_L_003_010",
+            "34_L_003_011"
+          ],
+          "literal_gloss": "跟对象喝酒",
+          "pragmatic_meaning": "",
+          "free_translation": "想和对象一起喝红酒",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "跟对象喝酒",
+        "一起喝红"
+      ]
+    },
+    {
+      "label": "一起喝红",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_134973_16",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007740.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007741.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007742.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007743.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007744.jpg"
+          ],
+          "leaf_range": [
+            7740,
+            7744
+          ],
+          "display_labels": [
+            "34_L_003_007",
+            "34_L_003_008",
+            "34_L_003_009",
+            "34_L_003_010",
+            "34_L_003_011"
+          ],
+          "literal_gloss": "跟对象喝酒",
+          "pragmatic_meaning": "",
+          "free_translation": "想和对象一起喝红酒",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "跟对象喝酒",
+        "想和对象"
+      ]
+    },
+    {
+      "label": "地铁人挤人",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_164842_25",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007768.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007769.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007770.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007771.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007772.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007773.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007774.jpg"
+          ],
+          "leaf_range": [
+            7768,
+            7774
+          ],
+          "display_labels": [
+            "34_L_005_008",
+            "34_L_005_009",
+            "34_L_005_010",
+            "34_L_005_011",
+            "34_L_005_012",
+            "34_L_005_013",
+            "34_L_005_014"
+          ],
+          "literal_gloss": "地铁人挤人，还是打车吧",
+          "pragmatic_meaning": "",
+          "free_translation": "搭地铁要人挤人，还是打车吧",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "还是打车吧",
+        "搭地铁要人挤人"
+      ]
+    },
+    {
+      "label": "搭地铁要人挤人",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_164842_25",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007768.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007769.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007770.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007771.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007772.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007773.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007774.jpg"
+          ],
+          "leaf_range": [
+            7768,
+            7774
+          ],
+          "display_labels": [
+            "34_L_005_008",
+            "34_L_005_009",
+            "34_L_005_010",
+            "34_L_005_011",
+            "34_L_005_012",
+            "34_L_005_013",
+            "34_L_005_014"
+          ],
+          "literal_gloss": "地铁人挤人，还是打车吧",
+          "pragmatic_meaning": "",
+          "free_translation": "搭地铁要人挤人，还是打车吧",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "地铁人挤人",
+        "还是打车吧"
+      ]
+    },
+    {
+      "label": "告知终点",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_174309_4",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007782.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007783.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007784.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007785.jpg"
+          ],
+          "leaf_range": [
+            7782,
+            7785
+          ],
+          "display_labels": [
+            "34_L_006_006",
+            "34_L_006_007",
+            "34_L_006_008",
+            "34_L_006_009"
+          ],
+          "literal_gloss": "告知终点",
+          "pragmatic_meaning": "",
+          "free_translation": "告诉司机终点在哪里",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "告诉司机",
+        "终点在哪"
+      ]
+    },
+    {
+      "label": "告诉司机",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_174309_4",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007782.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007783.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007784.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007785.jpg"
+          ],
+          "leaf_range": [
+            7782,
+            7785
+          ],
+          "display_labels": [
+            "34_L_006_006",
+            "34_L_006_007",
+            "34_L_006_008",
+            "34_L_006_009"
+          ],
+          "literal_gloss": "告知终点",
+          "pragmatic_meaning": "",
+          "free_translation": "告诉司机终点在哪里",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "告知终点",
+        "终点在哪"
+      ]
+    },
+    {
+      "label": "终点在哪",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_174309_4",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007782.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007783.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007784.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007785.jpg"
+          ],
+          "leaf_range": [
+            7782,
+            7785
+          ],
+          "display_labels": [
+            "34_L_006_006",
+            "34_L_006_007",
+            "34_L_006_008",
+            "34_L_006_009"
+          ],
+          "literal_gloss": "告知终点",
+          "pragmatic_meaning": "",
+          "free_translation": "告诉司机终点在哪里",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "告知终点",
+        "告诉司机"
+      ]
+    },
+    {
+      "label": "然后坐车",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_184908_26",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007791.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007792.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007793.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007794.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007795.jpg"
+          ],
+          "leaf_range": [
+            7791,
+            7795
+          ],
+          "display_labels": [
+            "34_L_007_002",
+            "34_L_007_003",
+            "34_L_007_004",
+            "34_L_007_005",
+            "34_L_007_006"
+          ],
+          "literal_gloss": "然后坐车",
+          "pragmatic_meaning": "",
+          "free_translation": "回家的路上",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "回家的路上"
+      ]
+    },
+    {
+      "label": "回家的路上",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_184908_26",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007791.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007792.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007793.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007794.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007795.jpg"
+          ],
+          "leaf_range": [
+            7791,
+            7795
+          ],
+          "display_labels": [
+            "34_L_007_002",
+            "34_L_007_003",
+            "34_L_007_004",
+            "34_L_007_005",
+            "34_L_007_006"
+          ],
+          "literal_gloss": "然后坐车",
+          "pragmatic_meaning": "",
+          "free_translation": "回家的路上",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "然后坐车",
+        "脚印",
+        "在回家的路上"
+      ]
+    },
+    {
+      "label": "跑着回家",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_187028_12",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007797.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007798.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007799.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007800.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007801.jpg"
+          ],
+          "leaf_range": [
+            7797,
+            7801
+          ],
+          "display_labels": [
+            "34_L_007_008",
+            "34_L_007_009",
+            "34_L_007_010",
+            "34_L_007_011",
+            "34_L_007_012"
+          ],
+          "literal_gloss": "下车回家",
+          "pragmatic_meaning": "",
+          "free_translation": "下了车，跑着回家",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "下车回家",
+        "下了车"
+      ]
+    },
+    {
+      "label": "很多工作",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_265886_99",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007633.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007634.jpg"
+          ],
+          "leaf_range": [
+            7633,
+            7634
+          ],
+          "display_labels": [
+            "33_R_001_002",
+            "33_R_001_003"
+          ],
+          "literal_gloss": "很多工作",
+          "pragmatic_meaning": "",
+          "free_translation": "桌上堆满很多工作需要完成",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "桌上堆满",
+        "需要完成"
+      ]
+    },
+    {
+      "label": "桌上堆满",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_265886_99",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007633.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007634.jpg"
+          ],
+          "leaf_range": [
+            7633,
+            7634
+          ],
+          "display_labels": [
+            "33_R_001_002",
+            "33_R_001_003"
+          ],
+          "literal_gloss": "很多工作",
+          "pragmatic_meaning": "",
+          "free_translation": "桌上堆满很多工作需要完成",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "很多工作",
+        "需要完成"
+      ]
+    },
+    {
+      "label": "需要完成",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_265886_99",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007633.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007634.jpg"
+          ],
+          "leaf_range": [
+            7633,
+            7634
+          ],
+          "display_labels": [
+            "33_R_001_002",
+            "33_R_001_003"
+          ],
+          "literal_gloss": "很多工作",
+          "pragmatic_meaning": "",
+          "free_translation": "桌上堆满很多工作需要完成",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "需要",
+        "很多工作",
+        "桌上堆满"
+      ]
+    },
+    {
+      "label": "办公用品",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_295853_84",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007635.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007636.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007637.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007638.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007639.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007640.jpg"
+          ],
+          "leaf_range": [
+            7635,
+            7640
+          ],
+          "display_labels": [
+            "33_R_001_004",
+            "33_R_001_005",
+            "33_R_001_006",
+            "33_R_001_007",
+            "33_R_001_008",
+            "33_R_001_009"
+          ],
+          "literal_gloss": "办公用品",
+          "pragmatic_meaning": "",
+          "free_translation": "接打电话、找资料、查资料、翻找资料、看报告和计算。",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "接打电话",
+        "找资料",
+        "查资料",
+        "翻找资料",
+        "看报告和计算"
+      ]
+    },
+    {
+      "label": "接打电话",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_295853_84",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007635.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007636.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007637.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007638.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007639.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007640.jpg"
+          ],
+          "leaf_range": [
+            7635,
+            7640
+          ],
+          "display_labels": [
+            "33_R_001_004",
+            "33_R_001_005",
+            "33_R_001_006",
+            "33_R_001_007",
+            "33_R_001_008",
+            "33_R_001_009"
+          ],
+          "literal_gloss": "办公用品",
+          "pragmatic_meaning": "",
+          "free_translation": "接打电话、找资料、查资料、翻找资料、看报告和计算。",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "办公用品",
+        "找资料",
+        "查资料",
+        "翻找资料",
+        "看报告和计算"
+      ]
+    },
+    {
+      "label": "翻找资料",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_295853_84",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007635.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007636.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007637.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007638.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007639.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007640.jpg"
+          ],
+          "leaf_range": [
+            7635,
+            7640
+          ],
+          "display_labels": [
+            "33_R_001_004",
+            "33_R_001_005",
+            "33_R_001_006",
+            "33_R_001_007",
+            "33_R_001_008",
+            "33_R_001_009"
+          ],
+          "literal_gloss": "办公用品",
+          "pragmatic_meaning": "",
+          "free_translation": "接打电话、找资料、查资料、翻找资料、看报告和计算。",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "办公用品",
+        "接打电话",
+        "找资料",
+        "查资料",
+        "看报告和计算"
+      ]
+    },
+    {
+      "label": "看报告和计算",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_295853_84",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007635.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007636.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007637.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007638.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007639.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007640.jpg"
+          ],
+          "leaf_range": [
+            7635,
+            7640
+          ],
+          "display_labels": [
+            "33_R_001_004",
+            "33_R_001_005",
+            "33_R_001_006",
+            "33_R_001_007",
+            "33_R_001_008",
+            "33_R_001_009"
+          ],
+          "literal_gloss": "办公用品",
+          "pragmatic_meaning": "",
+          "free_translation": "接打电话、找资料、查资料、翻找资料、看报告和计算。",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (20).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "办公用品",
+        "接打电话",
+        "找资料",
+        "查资料",
+        "翻找资料"
+      ]
+    },
+    {
+      "label": "太晚打不到车",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_357257_57",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010693.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010694.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010695.jpg"
+          ],
+          "leaf_range": [
+            10693,
+            10695
+          ],
+          "display_labels": [
+            "49_R_002_007",
+            "49_R_002_008",
+            "49_R_002_009"
+          ],
+          "literal_gloss": "太晚打不到车",
+          "pragmatic_meaning": "",
+          "free_translation": "可能是因为太晚了，已经没有出租车了",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (21).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "可能是因为太晚了",
+        "已经没有出租车了"
+      ]
+    },
+    {
+      "label": "可能是因为太晚了",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_357257_57",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010693.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010694.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010695.jpg"
+          ],
+          "leaf_range": [
+            10693,
+            10695
+          ],
+          "display_labels": [
+            "49_R_002_007",
+            "49_R_002_008",
+            "49_R_002_009"
+          ],
+          "literal_gloss": "太晚打不到车",
+          "pragmatic_meaning": "",
+          "free_translation": "可能是因为太晚了，已经没有出租车了",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (21).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "太晚打不到车",
+        "已经没有出租车了"
+      ]
+    },
+    {
+      "label": "已经没有出租车了",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_357257_57",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010693.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010694.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010695.jpg"
+          ],
+          "leaf_range": [
+            10693,
+            10695
+          ],
+          "display_labels": [
+            "49_R_002_007",
+            "49_R_002_008",
+            "49_R_002_009"
+          ],
+          "literal_gloss": "太晚打不到车",
+          "pragmatic_meaning": "",
+          "free_translation": "可能是因为太晚了，已经没有出租车了",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (21).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "太晚打不到车",
+        "可能是因为太晚了"
+      ]
+    },
+    {
+      "label": "想着对象",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_407026_69",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010748.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010749.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010750.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010751.jpg"
+          ],
+          "leaf_range": [
+            10748,
+            10751
+          ],
+          "display_labels": [
+            "49_R_007_005",
+            "49_R_007_006",
+            "49_R_007_007",
+            "49_R_007_008"
+          ],
+          "literal_gloss": "想着对象",
+          "pragmatic_meaning": "",
+          "free_translation": "想到对象。",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (21).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "想到对象"
+      ]
+    },
+    {
+      "label": "想到对象",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_407026_69",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010748.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010749.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010750.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010751.jpg"
+          ],
+          "leaf_range": [
+            10748,
+            10751
+          ],
+          "display_labels": [
+            "49_R_007_005",
+            "49_R_007_006",
+            "49_R_007_007",
+            "49_R_007_008"
+          ],
+          "literal_gloss": "想着对象",
+          "pragmatic_meaning": "",
+          "free_translation": "想到对象。",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (21).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "想着对象"
+      ]
+    },
+    {
+      "label": "经过很多地方",
+      "score": 6.8173,
+      "target_count": 1,
+      "sample_targets": [
+        {
+          "target_id": "grp_410667_58",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010752.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010753.jpg"
+          ],
+          "leaf_range": [
+            10752,
+            10753
+          ],
+          "display_labels": [
+            "49_R_007_009",
+            "49_R_007_010"
+          ],
+          "literal_gloss": "",
+          "pragmatic_meaning": "",
+          "free_translation": "经过很多地方",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (21).txt"
+        }
+      ],
+      "candidate_synonyms": []
+    }
+  ]
+}

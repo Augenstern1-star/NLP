@@ -1,0 +1,1890 @@
+{
+  "batch_id": "batch_004",
+  "instruction": "Merge near-synonymous Chinese concept candidates, choose one readable label, keep only the strongest Dishu image targets, and write concise explanations plus possible misreadings. Return JSON with concept_id, label, synonyms, semantic_tags, explanation, possible_misreadings, and selected_target_ids.",
+  "candidates": [
+    {
+      "label": "来回踱步",
+      "score": 7.1733,
+      "target_count": 16,
+      "sample_targets": [
+        {
+          "target_id": "grp_205131_56",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011675.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011676.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011677.jpg"
+          ],
+          "leaf_range": [
+            11675,
+            11677
+          ],
+          "display_labels": [
+            "56_R_006_008",
+            "56_R_006_009",
+            "56_R_006_010"
+          ],
+          "literal_gloss": "",
+          "pragmatic_meaning": "",
+          "free_translation": "来回踱步",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (153).txt"
+        },
+        {
+          "target_id": "grp_206820_87",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011679.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011680.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011681.jpg"
+          ],
+          "leaf_range": [
+            11679,
+            11681
+          ],
+          "display_labels": [
+            "56_R_006_012",
+            "56_R_006_013",
+            "56_R_006_014"
+          ],
+          "literal_gloss": "",
+          "pragmatic_meaning": "",
+          "free_translation": "来回踱步",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (153).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "起床",
+        "他从床上下来"
+      ]
+    },
+    {
+      "label": "旋转",
+      "score": 7.1564,
+      "target_count": 21,
+      "sample_targets": [
+        {
+          "target_id": "grp_421956_22",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011770.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011771.jpg"
+          ],
+          "leaf_range": [
+            11770,
+            11771
+          ],
+          "display_labels": [
+            "57_R_006_002",
+            "57_R_006_003"
+          ],
+          "literal_gloss": "旋转",
+          "pragmatic_meaning": "",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (121).txt"
+        },
+        {
+          "target_id": "grp_436964_51",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011780.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011781.jpg"
+          ],
+          "leaf_range": [
+            11780,
+            11781
+          ],
+          "display_labels": [
+            "57_R_007_002",
+            "57_R_007_003"
+          ],
+          "literal_gloss": "旋转",
+          "pragmatic_meaning": "",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (121).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "俄罗斯方块",
+        "右下",
+        "坐在沙发",
+        "中的人在",
+        "下右下",
+        "左下"
+      ]
+    },
+    {
+      "label": "等等",
+      "score": 7.1564,
+      "target_count": 21,
+      "sample_targets": [
+        {
+          "target_id": "grp_320268_75",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/004369.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/004370.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/004371.jpg"
+          ],
+          "leaf_range": [
+            4369,
+            4371
+          ],
+          "display_labels": [
+            "17_R_004_010",
+            "17_R_004_011",
+            "17_R_004_012"
+          ],
+          "literal_gloss": "等等",
+          "pragmatic_meaning": "",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (121).txt"
+        },
+        {
+          "target_id": "grp_492590_66",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/006019.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/006020.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/006021.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/006022.jpg"
+          ],
+          "leaf_range": [
+            6019,
+            6022
+          ],
+          "display_labels": [
+            "24_R_001_008",
+            "24_R_001_009",
+            "24_R_001_010",
+            "24_R_001_011"
+          ],
+          "literal_gloss": "",
+          "pragmatic_meaning": "等等",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (167).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "走到了收银台",
+        "电视正在放电影",
+        "海啸世界末日",
+        "诺亚方舟",
+        "在喜马拉",
+        "雅山"
+      ]
+    },
+    {
+      "label": "结束",
+      "score": 7.1378,
+      "target_count": 20,
+      "sample_targets": [
+        {
+          "target_id": "grp_366056_13",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/009219.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/009220.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/009221.jpg"
+          ],
+          "leaf_range": [
+            9219,
+            9221
+          ],
+          "display_labels": [
+            "40_R_004_012",
+            "40_R_004_013",
+            "40_R_004_014"
+          ],
+          "literal_gloss": "",
+          "pragmatic_meaning": "结束",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (157).txt"
+        },
+        {
+          "target_id": "grp_535278_88",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/009294.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/009295.jpg"
+          ],
+          "leaf_range": [
+            9294,
+            9295
+          ],
+          "display_labels": [
+            "41_L_002_015",
+            "41_L_002_016"
+          ],
+          "literal_gloss": "",
+          "pragmatic_meaning": "结束",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (159).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "句号",
+        "回家",
+        "会议结束后",
+        "下班",
+        "回到",
+        "离开",
+        "多待",
+        "晚上"
+      ]
+    },
+    {
+      "label": "害怕",
+      "score": 7.1367,
+      "target_count": 5,
+      "sample_targets": [
+        {
+          "target_id": "grp_267027_20",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/006990.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/006991.jpg"
+          ],
+          "leaf_range": [
+            6990,
+            6991
+          ],
+          "display_labels": [
+            "29_R_002_002",
+            "29_R_002_003"
+          ],
+          "literal_gloss": "",
+          "pragmatic_meaning": "害怕",
+          "free_translation": "怕人多",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (295).txt"
+        },
+        {
+          "target_id": "grp_332101_90",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010496.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010497.jpg"
+          ],
+          "leaf_range": [
+            10496,
+            10497
+          ],
+          "display_labels": [
+            "48_L_001_007",
+            "48_L_001_008"
+          ],
+          "literal_gloss": "害怕",
+          "pragmatic_meaning": "",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (132).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "有点害怕。",
+        "急了",
+        "怕人多",
+        "紧张",
+        "有点",
+        "加速",
+        "我看着礼物，"
+      ]
+    },
+    {
+      "label": "向下跑",
+      "score": 7.1238,
+      "target_count": 4,
+      "sample_targets": [
+        {
+          "target_id": "grp_619579_97",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007750.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007751.jpg"
+          ],
+          "leaf_range": [
+            7750,
+            7751
+          ],
+          "display_labels": [
+            "34_L_004_004",
+            "34_L_004_005"
+          ],
+          "literal_gloss": "向下跑",
+          "pragmatic_meaning": "往下跑",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        },
+        {
+          "target_id": "grp_562213_49",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007753.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007754.jpg"
+          ],
+          "leaf_range": [
+            7753,
+            7754
+          ],
+          "display_labels": [
+            "34_L_004_007",
+            "34_L_004_008"
+          ],
+          "literal_gloss": "向下跑",
+          "pragmatic_meaning": "",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (134).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "往下跑"
+      ]
+    },
+    {
+      "label": "到点了",
+      "score": 7.1238,
+      "target_count": 4,
+      "sample_targets": [
+        {
+          "target_id": "grp_378015_52",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010399.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010400.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010401.jpg"
+          ],
+          "leaf_range": [
+            10399,
+            10401
+          ],
+          "display_labels": [
+            "47_R_001_001",
+            "47_R_001_002",
+            "47_R_001_003"
+          ],
+          "literal_gloss": "",
+          "pragmatic_meaning": "过了一会",
+          "free_translation": "到点了",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (284).txt"
+        },
+        {
+          "target_id": "seg_003714",
+          "target_type": "atom",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/003714.jpg"
+          ],
+          "leaf_range": [
+            3714,
+            3714
+          ],
+          "display_labels": [
+            "15_R_003_002"
+          ],
+          "literal_gloss": "过了会",
+          "pragmatic_meaning": "10点45分",
+          "free_translation": "时间",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (166).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "过了一会",
+        "过了会",
+        "看时间",
+        "时钟",
+        "十点四十五",
+        "很晚了",
+        "一段时间后",
+        "时间"
+      ]
+    },
+    {
+      "label": "有声音",
+      "score": 7.1238,
+      "target_count": 4,
+      "sample_targets": [
+        {
+          "target_id": "grp_463587_55",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011121.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011122.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011123.jpg"
+          ],
+          "leaf_range": [
+            11121,
+            11123
+          ],
+          "display_labels": [
+            "53_L_001_002",
+            "53_L_001_003",
+            "53_L_001_004"
+          ],
+          "literal_gloss": "有声音",
+          "pragmatic_meaning": "有声音",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (29).txt"
+        },
+        {
+          "target_id": "grp_257114_51",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007068.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007069.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007070.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007071.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007072.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007073.jpg"
+          ],
+          "leaf_range": [
+            7068,
+            7073
+          ],
+          "display_labels": [
+            "30_L_001_014",
+            "30_L_001_015",
+            "30_L_001_016",
+            "30_L_001_017",
+            "30_L_001_018",
+            "30_L_001_019"
+          ],
+          "literal_gloss": "",
+          "pragmatic_meaning": "疑惑心想为什么没有声音",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (245).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "疑惑心想",
+        "为什么没",
+        "又打招呼",
+        "但仍然没"
+      ]
+    },
+    {
+      "label": "关电视",
+      "score": 7.1238,
+      "target_count": 4,
+      "sample_targets": [
+        {
+          "target_id": "grp_677155_97",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011103.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011104.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011105.jpg"
+          ],
+          "leaf_range": [
+            11103,
+            11105
+          ],
+          "display_labels": [
+            "52_R_006_005",
+            "52_R_006_006",
+            "52_R_006_007"
+          ],
+          "literal_gloss": "关电视",
+          "pragmatic_meaning": "",
+          "free_translation": "关掉电视机",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        },
+        {
+          "target_id": "grp_848781_90",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011100.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011101.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011102.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011103.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011104.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011105.jpg"
+          ],
+          "leaf_range": [
+            11100,
+            11105
+          ],
+          "display_labels": [
+            "52_R_006_002",
+            "52_R_006_003",
+            "52_R_006_004",
+            "52_R_006_005",
+            "52_R_006_006",
+            "52_R_006_007"
+          ],
+          "literal_gloss": "关电视",
+          "pragmatic_meaning": "关电视",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (29).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "关掉电视机",
+        "我",
+        "我关掉电视和灯，"
+      ]
+    },
+    {
+      "label": "飞走了",
+      "score": 7.1238,
+      "target_count": 4,
+      "sample_targets": [
+        {
+          "target_id": "grp_094743_33",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011251.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011252.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011253.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011254.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011255.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011256.jpg"
+          ],
+          "leaf_range": [
+            11251,
+            11256
+          ],
+          "display_labels": [
+            "53_L_009_016",
+            "53_L_009_017",
+            "53_L_009_018",
+            "53_L_009_019",
+            "53_L_009_020",
+            "53_L_009_021"
+          ],
+          "literal_gloss": "蚊子飞走",
+          "pragmatic_meaning": "飞走了",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (29).txt"
+        },
+        {
+          "target_id": "grp_636241_56",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011044.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011045.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011046.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011047.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011048.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011049.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011050.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011051.jpg"
+          ],
+          "leaf_range": [
+            11044,
+            11054
+          ],
+          "display_labels": [
+            "52_R_003_006",
+            "52_R_003_007",
+            "52_R_003_008",
+            "52_R_003_009",
+            "52_R_003_010",
+            "52_R_003_011",
+            "52_R_003_012",
+            "52_R_003_013"
+          ],
+          "literal_gloss": "蚊子飞走",
+          "pragmatic_meaning": "飞走了",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (29).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "蚊子飞走",
+        "气球漏气",
+        "越来越小",
+        "最后螺旋"
+      ]
+    },
+    {
+      "label": "跑出门",
+      "score": 7.1238,
+      "target_count": 4,
+      "sample_targets": [
+        {
+          "target_id": "grp_618373_72",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007748.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007749.jpg"
+          ],
+          "leaf_range": [
+            7748,
+            7749
+          ],
+          "display_labels": [
+            "34_L_004_002",
+            "34_L_004_003"
+          ],
+          "literal_gloss": "逃出屋子",
+          "pragmatic_meaning": "跑出门",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (353).txt"
+        },
+        {
+          "target_id": "grp_955673_55",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/008115.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/008116.jpg"
+          ],
+          "leaf_range": [
+            8115,
+            8116
+          ],
+          "display_labels": [
+            "35_R_005_005",
+            "35_R_005_006"
+          ],
+          "literal_gloss": "",
+          "pragmatic_meaning": "跑出门",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (35).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "逃出屋子"
+      ]
+    },
+    {
+      "label": "聊天",
+      "score": 7.1183,
+      "target_count": 19,
+      "sample_targets": [
+        {
+          "target_id": "grp_735624_99",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/004745.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/004746.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/004747.jpg"
+          ],
+          "leaf_range": [
+            4745,
+            4747
+          ],
+          "display_labels": [
+            "18_R_009_002",
+            "18_R_009_003",
+            "18_R_009_004"
+          ],
+          "literal_gloss": "聊天",
+          "pragmatic_meaning": "",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (121).txt"
+        },
+        {
+          "target_id": "grp_525038_78",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/009281.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/009282.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/009283.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/009284.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/009285.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/009286.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/009287.jpg"
+          ],
+          "leaf_range": [
+            9281,
+            9287
+          ],
+          "display_labels": [
+            "41_L_002_002",
+            "41_L_002_003",
+            "41_L_002_004",
+            "41_L_002_005",
+            "41_L_002_006",
+            "41_L_002_007",
+            "41_L_002_008"
+          ],
+          "literal_gloss": "聊天",
+          "pragmatic_meaning": "",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (146).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "我",
+        "酒吧",
+        "他们聊天",
+        "继续聊天",
+        "两个人面",
+        "对面坐着",
+        "交谈",
+        "和其他人交谈"
+      ]
+    },
+    {
+      "label": "喝茶",
+      "score": 7.1183,
+      "target_count": 19,
+      "sample_targets": [
+        {
+          "target_id": "grp_937934_47",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/003546.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/003547.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/003548.jpg"
+          ],
+          "leaf_range": [
+            3546,
+            3548
+          ],
+          "display_labels": [
+            "14_R_007_007",
+            "14_R_007_008",
+            "14_R_007_009"
+          ],
+          "literal_gloss": "喝茶or水果",
+          "pragmatic_meaning": "",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (158).txt"
+        },
+        {
+          "target_id": "grp_877555_2",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/003569.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/003570.jpg"
+          ],
+          "leaf_range": [
+            3569,
+            3570
+          ],
+          "display_labels": [
+            "15_L_002_001",
+            "15_L_002_002"
+          ],
+          "literal_gloss": "喝茶",
+          "pragmatic_meaning": "",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (176).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "热茶",
+        "茶水",
+        "喝茶的说",
+        "咖啡",
+        "果汁",
+        "喝茶的人",
+        "喝着茶质询",
+        "喝着咖啡"
+      ]
+    },
+    {
+      "label": "女生说",
+      "score": 7.1133,
+      "target_count": 16,
+      "sample_targets": [
+        {
+          "target_id": "grp_288617_14",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/004563.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/004564.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/004565.jpg"
+          ],
+          "leaf_range": [
+            4563,
+            4565
+          ],
+          "display_labels": [
+            "18_L_008_002",
+            "18_L_008_003",
+            "18_L_008_004"
+          ],
+          "literal_gloss": "女生说",
+          "pragmatic_meaning": "",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (121).txt"
+        },
+        {
+          "target_id": "grp_307269_55",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/004599.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/004600.jpg"
+          ],
+          "leaf_range": [
+            4599,
+            4600
+          ],
+          "display_labels": [
+            "18_L_010_002",
+            "18_L_010_003"
+          ],
+          "literal_gloss": "女生说",
+          "pragmatic_meaning": "",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (121).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "要去车站",
+        "你的电话",
+        "一直在震"
+      ]
+    },
+    {
+      "label": "喝酒",
+      "score": 7.0978,
+      "target_count": 18,
+      "sample_targets": [
+        {
+          "target_id": "grp_739358_34",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/004749.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/004750.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/004751.jpg"
+          ],
+          "leaf_range": [
+            4749,
+            4751
+          ],
+          "display_labels": [
+            "18_R_009_006",
+            "18_R_009_007",
+            "18_R_009_008"
+          ],
+          "literal_gloss": "喝酒",
+          "pragmatic_meaning": "",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (121).txt"
+        },
+        {
+          "target_id": "grp_130549_53",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/007537.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007538.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007539.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/007540.jpg"
+          ],
+          "leaf_range": [
+            7537,
+            7540
+          ],
+          "display_labels": [
+            "32_L_004_011",
+            "32_L_004_012",
+            "32_L_004_013",
+            "32_L_004_014"
+          ],
+          "literal_gloss": "喝酒",
+          "pragmatic_meaning": "",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (14).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "里面可以休息",
+        "晾晒衣服",
+        "我开始喝酒",
+        "我们一起喝酒",
+        "我们继续喝酒",
+        "男人",
+        "他还是天",
+        "天和朋友"
+      ]
+    },
+    {
+      "label": "我说",
+      "score": 7.0978,
+      "target_count": 18,
+      "sample_targets": [
+        {
+          "target_id": "grp_104783_8",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/008209.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/008210.jpg"
+          ],
+          "leaf_range": [
+            8209,
+            8210
+          ],
+          "display_labels": [
+            "36_L_001_014",
+            "36_L_001_015"
+          ],
+          "literal_gloss": "",
+          "pragmatic_meaning": "",
+          "free_translation": "我说",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (13).txt"
+        },
+        {
+          "target_id": "grp_133389_34",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/008245.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/008246.jpg"
+          ],
+          "leaf_range": [
+            8245,
+            8246
+          ],
+          "display_labels": [
+            "36_L_003_007",
+            "36_L_003_008"
+          ],
+          "literal_gloss": "",
+          "pragmatic_meaning": "",
+          "free_translation": "我说",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (13).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "我说比赛很精彩。",
+        "我说房价跌了。",
+        "我说油价涨了。",
+        "把这两本",
+        "书包装成",
+        "一份礼物",
+        "有人手机",
+        "一直在震"
+      ]
+    },
+    {
+      "label": "手机震动",
+      "score": 7.0956,
+      "target_count": 13,
+      "sample_targets": [
+        {
+          "target_id": "grp_687426_34",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/012033.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/012034.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/012035.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/012036.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/012037.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/012038.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/012039.jpg"
+          ],
+          "leaf_range": [
+            12033,
+            12039
+          ],
+          "display_labels": [
+            "59_L_001_003",
+            "59_L_001_004",
+            "59_L_001_005",
+            "59_L_001_006",
+            "59_L_001_007",
+            "59_L_001_008",
+            "59_L_001_009"
+          ],
+          "literal_gloss": "手机震动",
+          "pragmatic_meaning": "",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (121).txt"
+        },
+        {
+          "target_id": "grp_148717_56",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/009186.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/009187.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/009188.jpg"
+          ],
+          "leaf_range": [
+            9186,
+            9188
+          ],
+          "display_labels": [
+            "40_R_003_002",
+            "40_R_003_003",
+            "40_R_003_004"
+          ],
+          "literal_gloss": "",
+          "pragmatic_meaning": "手机震动",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (150).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "震动",
+        "了好一会",
+        "惊讶地",
+        "震动起来",
+        "突然",
+        "手机震动闹钟"
+      ]
+    },
+    {
+      "label": "警察来了",
+      "score": 7.0945,
+      "target_count": 3,
+      "sample_targets": [
+        {
+          "target_id": "grp_415092_32",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010516.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010517.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010518.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010519.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010520.jpg"
+          ],
+          "leaf_range": [
+            10516,
+            10520
+          ],
+          "display_labels": [
+            "48_L_002_010",
+            "48_L_002_011",
+            "48_L_002_012",
+            "48_L_002_013",
+            "48_L_002_014"
+          ],
+          "literal_gloss": "警察来了",
+          "pragmatic_meaning": "",
+          "free_translation": "警察来了",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (113).txt"
+        },
+        {
+          "target_id": "grp_389328_72",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010516.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010517.jpg"
+          ],
+          "leaf_range": [
+            10516,
+            10517
+          ],
+          "display_labels": [
+            "48_L_002_010",
+            "48_L_002_011"
+          ],
+          "literal_gloss": "",
+          "pragmatic_meaning": "",
+          "free_translation": "很快，警察来了",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (275).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "警车",
+        "很快"
+      ]
+    },
+    {
+      "label": "猎杀大象",
+      "score": 7.0945,
+      "target_count": 3,
+      "sample_targets": [
+        {
+          "target_id": "grp_556323_17",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010927.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010928.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010929.jpg"
+          ],
+          "leaf_range": [
+            10927,
+            10929
+          ],
+          "display_labels": [
+            "51_L_006_002",
+            "51_L_006_003",
+            "51_L_006_004"
+          ],
+          "literal_gloss": "猎杀动物",
+          "pragmatic_meaning": "",
+          "free_translation": "猎杀大象",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (22).txt"
+        },
+        {
+          "target_id": "grp_270638_0",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010927.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010928.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010929.jpg"
+          ],
+          "leaf_range": [
+            10927,
+            10929
+          ],
+          "display_labels": [
+            "51_L_006_002",
+            "51_L_006_003",
+            "51_L_006_004"
+          ],
+          "literal_gloss": "",
+          "pragmatic_meaning": "猎杀大象",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (149).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "猎杀动物"
+      ]
+    },
+    {
+      "label": "关闭电视",
+      "score": 7.0945,
+      "target_count": 3,
+      "sample_targets": [
+        {
+          "target_id": "grp_969877_6",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011100.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011101.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011102.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011103.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011104.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011105.jpg"
+          ],
+          "leaf_range": [
+            11100,
+            11105
+          ],
+          "display_labels": [
+            "52_R_006_002",
+            "52_R_006_003",
+            "52_R_006_004",
+            "52_R_006_005",
+            "52_R_006_006",
+            "52_R_006_007"
+          ],
+          "literal_gloss": "关掉电视",
+          "pragmatic_meaning": "关闭电视",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (57).txt"
+        },
+        {
+          "target_id": "grp_585643_6",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011103.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011104.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011105.jpg"
+          ],
+          "leaf_range": [
+            11103,
+            11105
+          ],
+          "display_labels": [
+            "52_R_006_005",
+            "52_R_006_006",
+            "52_R_006_007"
+          ],
+          "literal_gloss": "",
+          "pragmatic_meaning": "关闭电视",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (184).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "关掉电视"
+      ]
+    },
+    {
+      "label": "睁开眼睛",
+      "score": 7.0945,
+      "target_count": 3,
+      "sample_targets": [
+        {
+          "target_id": "grp_633579_5",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011030.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011031.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011032.jpg"
+          ],
+          "leaf_range": [
+            11030,
+            11032
+          ],
+          "display_labels": [
+            "52_R_002_008",
+            "52_R_002_009",
+            "52_R_002_010"
+          ],
+          "literal_gloss": "睁开眼睛",
+          "pragmatic_meaning": "",
+          "free_translation": "睁开了眼睛",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        },
+        {
+          "target_id": "grp_595930_7",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011030.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011031.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011032.jpg"
+          ],
+          "leaf_range": [
+            11030,
+            11032
+          ],
+          "display_labels": [
+            "52_R_002_008",
+            "52_R_002_009",
+            "52_R_002_010"
+          ],
+          "literal_gloss": "",
+          "pragmatic_meaning": "睁开眼睛",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (240).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "睁开了眼睛"
+      ]
+    },
+    {
+      "label": "有嗡嗡嗡",
+      "score": 7.0945,
+      "target_count": 3,
+      "sample_targets": [
+        {
+          "target_id": "grp_687392_23",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011121.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011122.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011123.jpg"
+          ],
+          "leaf_range": [
+            11121,
+            11123
+          ],
+          "display_labels": [
+            "53_L_001_002",
+            "53_L_001_003",
+            "53_L_001_004"
+          ],
+          "literal_gloss": "嗡嗡嗡",
+          "pragmatic_meaning": "",
+          "free_translation": "有嗡嗡嗡的声音在耳边",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        },
+        {
+          "target_id": "grp_689518_44",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011125.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011126.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011127.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011128.jpg"
+          ],
+          "leaf_range": [
+            11125,
+            11128
+          ],
+          "display_labels": [
+            "53_L_001_006",
+            "53_L_001_007",
+            "53_L_001_008",
+            "53_L_001_009"
+          ],
+          "literal_gloss": "在耳边嗡嗡嗡",
+          "pragmatic_meaning": "",
+          "free_translation": "有嗡嗡嗡的声音在耳边",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "的声音在",
+        "耳边",
+        "在耳边嗡嗡嗡",
+        "嗡嗡嗡"
+      ]
+    },
+    {
+      "label": "的声音在",
+      "score": 7.0945,
+      "target_count": 3,
+      "sample_targets": [
+        {
+          "target_id": "grp_687392_23",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011121.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011122.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011123.jpg"
+          ],
+          "leaf_range": [
+            11121,
+            11123
+          ],
+          "display_labels": [
+            "53_L_001_002",
+            "53_L_001_003",
+            "53_L_001_004"
+          ],
+          "literal_gloss": "嗡嗡嗡",
+          "pragmatic_meaning": "",
+          "free_translation": "有嗡嗡嗡的声音在耳边",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        },
+        {
+          "target_id": "grp_689518_44",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011125.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011126.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011127.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011128.jpg"
+          ],
+          "leaf_range": [
+            11125,
+            11128
+          ],
+          "display_labels": [
+            "53_L_001_006",
+            "53_L_001_007",
+            "53_L_001_008",
+            "53_L_001_009"
+          ],
+          "literal_gloss": "在耳边嗡嗡嗡",
+          "pragmatic_meaning": "",
+          "free_translation": "有嗡嗡嗡的声音在耳边",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (19).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "有嗡嗡嗡",
+        "耳边",
+        "在耳边嗡嗡嗡",
+        "嗡嗡嗡"
+      ]
+    },
+    {
+      "label": "走了很久",
+      "score": 7.0945,
+      "target_count": 3,
+      "sample_targets": [
+        {
+          "target_id": "grp_369370_87",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010713.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010714.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010715.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010716.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010717.jpg"
+          ],
+          "leaf_range": [
+            10713,
+            10717
+          ],
+          "display_labels": [
+            "49_R_004_002",
+            "49_R_004_003",
+            "49_R_004_004",
+            "49_R_004_005",
+            "49_R_004_006"
+          ],
+          "literal_gloss": "走了很久",
+          "pragmatic_meaning": "",
+          "free_translation": "走了很久",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (21).txt"
+        },
+        {
+          "target_id": "grp_488823_90",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010758.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010759.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010760.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010761.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010762.jpg"
+          ],
+          "leaf_range": [
+            10758,
+            10762
+          ],
+          "display_labels": [
+            "50_L_001_002",
+            "50_L_001_003",
+            "50_L_001_004",
+            "50_L_001_005",
+            "50_L_001_006"
+          ],
+          "literal_gloss": "走了很久终于要到家了",
+          "pragmatic_meaning": "",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (199).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "一个人躺",
+        "在床上做",
+        "梦梦见他",
+        "看见一个",
+        "人坐在钱",
+        "中间",
+        "终于要到",
+        "家了"
+      ]
+    },
+    {
+      "label": "离开花店",
+      "score": 7.0945,
+      "target_count": 3,
+      "sample_targets": [
+        {
+          "target_id": "grp_191466_0",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/008137.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/008138.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/008139.jpg"
+          ],
+          "leaf_range": [
+            8137,
+            8139
+          ],
+          "display_labels": [
+            "35_R_007_002",
+            "35_R_007_003",
+            "35_R_007_004"
+          ],
+          "literal_gloss": "离开花店",
+          "pragmatic_meaning": "离开花店",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (280).txt"
+        },
+        {
+          "target_id": "grp_122583_72",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/008137.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/008138.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/008139.jpg"
+          ],
+          "leaf_range": [
+            8137,
+            8139
+          ],
+          "display_labels": [
+            "35_R_007_002",
+            "35_R_007_003",
+            "35_R_007_004"
+          ],
+          "literal_gloss": "",
+          "pragmatic_meaning": "",
+          "free_translation": "离开花店",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (246).txt"
+        }
+      ],
+      "candidate_synonyms": []
+    },
+    {
+      "label": "电视还在放",
+      "score": 7.0945,
+      "target_count": 3,
+      "sample_targets": [
+        {
+          "target_id": "grp_593613_68",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010990.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010991.jpg"
+          ],
+          "leaf_range": [
+            10990,
+            10991
+          ],
+          "display_labels": [
+            "51_L_010_012",
+            "51_L_010_013"
+          ],
+          "literal_gloss": "电视还在放。。",
+          "pragmatic_meaning": "",
+          "free_translation": "电视机还在播放中。。",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (22).txt"
+        },
+        {
+          "target_id": "grp_507558_10",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010990.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010991.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010992.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010993.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010994.jpg"
+          ],
+          "leaf_range": [
+            10990,
+            10994
+          ],
+          "display_labels": [
+            "51_L_010_012",
+            "51_L_010_013",
+            "51_L_010_014",
+            "51_L_010_015",
+            "51_L_010_016"
+          ],
+          "literal_gloss": "电视还在放",
+          "pragmatic_meaning": "",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务2-句标注/句标注 (269).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "电视机还在播放中",
+        "渐渐地困了"
+      ]
+    },
+    {
+      "label": "有人说",
+      "score": 7.089,
+      "target_count": 15,
+      "sample_targets": [
+        {
+          "target_id": "grp_059227_65",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/006635.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/006636.jpg"
+          ],
+          "leaf_range": [
+            6635,
+            6636
+          ],
+          "display_labels": [
+            "27_R_003_002",
+            "27_R_003_003"
+          ],
+          "literal_gloss": "有人说",
+          "pragmatic_meaning": "",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (115).txt"
+        },
+        {
+          "target_id": "grp_066367_58",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/006652.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/006653.jpg"
+          ],
+          "leaf_range": [
+            6652,
+            6653
+          ],
+          "display_labels": [
+            "27_R_004_002",
+            "27_R_004_003"
+          ],
+          "literal_gloss": "有人说",
+          "pragmatic_meaning": "",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (115).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "有人",
+        "我们"
+      ]
+    },
+    {
+      "label": "警察说",
+      "score": 7.089,
+      "target_count": 15,
+      "sample_targets": [
+        {
+          "target_id": "grp_850202_96",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010561.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010562.jpg"
+          ],
+          "leaf_range": [
+            10561,
+            10562
+          ],
+          "display_labels": [
+            "48_L_005_002",
+            "48_L_005_003"
+          ],
+          "literal_gloss": "警察说",
+          "pragmatic_meaning": "",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (119).txt"
+        },
+        {
+          "target_id": "grp_966237_53",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/010648.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010649.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010650.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/010651.jpg"
+          ],
+          "leaf_range": [
+            10648,
+            10651
+          ],
+          "display_labels": [
+            "48_R_001_002",
+            "48_R_001_003",
+            "48_R_001_004",
+            "48_R_001_005"
+          ],
+          "literal_gloss": "警察说",
+          "pragmatic_meaning": "",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (119).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "身份证也给我",
+        "你喝酒了",
+        "你自己走着回家吧",
+        "你的身份",
+        "证和驾照",
+        "那你就好",
+        "好的去人",
+        "行道上走"
+      ]
+    },
+    {
+      "label": "俄罗斯方块",
+      "score": 7.066,
+      "target_count": 12,
+      "sample_targets": [
+        {
+          "target_id": "grp_335729_45",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011737.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011738.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011739.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011740.jpg"
+          ],
+          "leaf_range": [
+            11737,
+            11740
+          ],
+          "display_labels": [
+            "57_R_003_007",
+            "57_R_003_008",
+            "57_R_003_009",
+            "57_R_003_010"
+          ],
+          "literal_gloss": "超级玛丽，pvz,愤怒的小鸟，俄罗斯方块",
+          "pragmatic_meaning": "",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (121).txt"
+        },
+        {
+          "target_id": "grp_378059_95",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011751.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011752.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011753.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011754.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011755.jpg"
+          ],
+          "leaf_range": [
+            11751,
+            11755
+          ],
+          "display_labels": [
+            "57_R_004_010",
+            "57_R_004_011",
+            "57_R_004_012",
+            "57_R_004_013",
+            "57_R_004_014"
+          ],
+          "literal_gloss": "俄罗斯方块，启动！",
+          "pragmatic_meaning": "",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (121).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "《俄罗斯方块》",
+        "愤怒的小鸟",
+        "旋转",
+        "右下",
+        "超级玛丽",
+        "启动",
+        "游戏机内容",
+        "游戏"
+      ]
+    },
+    {
+      "label": "开灯",
+      "score": 7.0638,
+      "target_count": 4,
+      "sample_targets": [
+        {
+          "target_id": "grp_255957_64",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011134.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011135.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011136.jpg"
+          ],
+          "leaf_range": [
+            11134,
+            11136
+          ],
+          "display_labels": [
+            "53_L_002_002",
+            "53_L_002_003",
+            "53_L_002_004"
+          ],
+          "literal_gloss": "开灯",
+          "pragmatic_meaning": "打开灯",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (57).txt"
+        },
+        {
+          "target_id": "grp_970641_83",
+          "target_type": "group",
+          "confidence": 0.96,
+          "image_paths": [
+            "../地书标注系统 V1.0/images/auto_cut_segments/011134.jpg",
+            "../地书标注系统 V1.0/images/auto_cut_segments/011135.jpg"
+          ],
+          "leaf_range": [
+            11134,
+            11135
+          ],
+          "display_labels": [
+            "53_L_002_002",
+            "53_L_002_003"
+          ],
+          "literal_gloss": "开灯",
+          "pragmatic_meaning": "",
+          "free_translation": "",
+          "event_description": "",
+          "source_file": "《地书》标注数据/《地书》标注任务1-词标注/地书-词标注 (253).txt"
+        }
+      ],
+      "candidate_synonyms": [
+        "开打",
+        "打开灯",
+        "我打开台灯，"
+      ]
+    }
+  ]
+}
