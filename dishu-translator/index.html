@@ -7,6 +7,25 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <canvas id="hanziBackground" class="hanzi-background" aria-hidden="true"></canvas>
+  <aside id="featureAssistant" class="feature-assistant" aria-label="AI 功能助手">
+    <button id="assistantToggleBtn" class="assistant-toggle" type="button" aria-expanded="false" aria-controls="assistantDrawer">
+      <span>AI</span>
+      <strong>功能助手</strong>
+    </button>
+    <section id="assistantDrawer" class="assistant-drawer" aria-live="polite">
+      <div class="assistant-head">
+        <div>
+          <span>AI 助手</span>
+          <strong>这个功能怎么用？</strong>
+        </div>
+        <button id="assistantCloseBtn" class="ghost-btn" type="button">收起</button>
+      </div>
+      <input id="assistantSearchInput" class="text-input" type="search" placeholder="搜索：翻译 / AI补译 / 图像审稿 / 观众模拟">
+      <div id="assistantQuickActions" class="assistant-quick-actions"></div>
+      <div id="assistantAnswer" class="assistant-answer"></div>
+    </section>
+  </aside>
   <main class="shell">
     <header class="topbar">
       <div>
@@ -49,8 +68,11 @@
           <div class="score">
             <span id="confidenceLabel">0%</span>
             <div class="score-track"><span id="confidenceBar"></span></div>
+            <button id="animationToggleBtn" class="ghost-btn animation-toggle" type="button">播放动画</button>
           </div>
         </div>
+        <div id="versionTabs" class="version-tabs" aria-label="翻译版本"></div>
+        <div id="animationStage" class="animation-stage" aria-live="polite"></div>
         <div id="glyphOutput" class="glyph-output"></div>
       </section>
 
@@ -89,6 +111,60 @@
       </aside>
     </section>
 
+    <section class="artwork-panel panel">
+      <div class="detail-head">
+        <div>
+          <div class="section-label">作品展示</div>
+          <h2>意义在图形中的保留与漂移</h2>
+        </div>
+        <button id="refreshArtworkBtn" type="button" class="ghost-btn">刷新展示</button>
+      </div>
+      <div class="artwork-statement">当自然语言被转换为图形，意义会被保留、误读，还是重新生成？</div>
+      <div class="artwork-layout">
+        <div id="artworkCanvas" class="artwork-canvas empty-copy">翻译后会生成可用于展示的地书图形画布。</div>
+        <aside class="artwork-caption">
+          <div>
+            <span>原句</span>
+            <strong id="artworkSource">等待输入</strong>
+          </div>
+          <div>
+            <span>自然回译</span>
+            <strong id="artworkReading">等待生成</strong>
+          </div>
+          <div>
+            <span>图形概念链</span>
+            <strong id="artworkConceptChain">等待生成</strong>
+          </div>
+          <div>
+            <span>平均置信度</span>
+            <strong id="artworkConfidence">0%</strong>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="drift-panel panel">
+      <div class="detail-head">
+        <div>
+          <div class="section-label">语义漂移观察</div>
+          <h2>输入词与图形概念的错位</h2>
+        </div>
+        <div id="driftStats" class="match-stats">0 drift</div>
+      </div>
+      <div id="driftList" class="drift-list empty-copy">出现借用、近似或不可译空位时，会在这里显示语义漂移。</div>
+    </section>
+
+    <section class="work-card-panel panel">
+      <div class="detail-head">
+        <div>
+          <div class="section-label">作品卡片</div>
+          <h2>报告与 PPT 展示说明</h2>
+        </div>
+        <button id="copyWorkCardBtn" type="button" class="ghost-btn">复制作品说明</button>
+      </div>
+      <article id="workCard" class="work-card empty-copy">翻译后会生成可直接截图或复制进报告的作品说明卡。</article>
+    </section>
+
     <section class="details panel">
       <div class="detail-head">
         <div>
@@ -100,6 +176,51 @@
       <div id="detailList" class="detail-list"></div>
     </section>
 
+    <section class="reverse-panel panel">
+      <div class="detail-head">
+        <div>
+          <div class="section-label">双向翻译</div>
+          <h2>地书图形回译</h2>
+        </div>
+        <div id="reverseStats" class="match-stats">0 glyphs</div>
+      </div>
+      <div class="reverse-layout">
+        <div>
+          <div class="actions compact reverse-actions">
+            <button id="useCurrentReverseBtn" type="button">使用当前图形序列</button>
+            <button id="copyReverseBtn" type="button">复制回译</button>
+            <button id="clearReverseBtn" type="button">清空</button>
+          </div>
+          <div class="reverse-builder">
+            <input id="reverseLookupInput" class="text-input" type="search" placeholder="搜索概念并加入回译序列">
+            <div id="reverseLookupResults" class="reverse-lookup-results"></div>
+          </div>
+          <div id="reverseSequence" class="reverse-sequence empty-copy">点击图形卡片里的“加入回译”，或直接使用当前图形序列。</div>
+        </div>
+        <aside>
+          <div id="reverseOutput" class="reverse-output empty-copy">回译结果会显示在这里。</div>
+          <div id="reverseDiagnostics" class="reverse-diagnostics empty-copy">序列结构与歧义分析会显示在这里。</div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="semantic-map-panel panel">
+      <div class="detail-head">
+        <div>
+          <div class="section-label">语义地图</div>
+          <h2>概念网络</h2>
+        </div>
+        <div id="semanticMapStats" class="match-stats">0 concepts</div>
+      </div>
+      <div class="semantic-map-layout">
+        <div class="semantic-map-main">
+          <div id="semanticMapFilters" class="semantic-filters"></div>
+          <div id="semanticMap" class="semantic-map"></div>
+        </div>
+        <aside id="semanticMapDetail" class="semantic-map-detail empty-copy">选择一个概念节点查看语义标签、同义词和图形来源。</aside>
+      </div>
+    </section>
+
     <section class="ai-panel panel">
       <div class="panel-head">
         <div>
@@ -107,6 +228,7 @@
           <h2>不可译片段候选建议</h2>
         </div>
       </div>
+      <div id="aiWorkflow" class="ai-workflow" aria-label="AI 补译流程"></div>
       <div class="ai-grid">
         <div>
           <input id="aiEndpointInput" class="text-input" type="url" value="https://api.deepseek.com/v1/chat/completions" aria-label="API Endpoint">
@@ -128,6 +250,64 @@
         </div>
       </div>
       <div id="aiSuggestions" class="ai-suggestions empty-copy">AI 或手动 JSON 的补译建议会显示在这里，采纳前不会自动替换结果。</div>
+    </section>
+
+    <section class="image-ai-panel panel">
+      <div class="panel-head">
+        <div>
+          <div class="section-label">AI 图像审稿</div>
+          <h2>图形释义与视觉误读检查</h2>
+        </div>
+      </div>
+      <div class="image-review-layout">
+        <div>
+          <input id="imageEndpointInput" class="text-input" type="url" value="https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions" aria-label="Image Review API Endpoint">
+          <div class="inline-fields image-api-fields">
+            <input id="imageModelInput" class="text-input" type="text" value="qwen-vl-plus" aria-label="Image Review Model">
+            <input id="imageApiKeyInput" class="text-input" type="password" placeholder="Qwen API Key / DASHSCOPE_API_KEY" aria-label="Image Review API Key">
+          </div>
+          <div class="actions compact">
+            <button id="buildImageReviewPromptBtn" type="button">生成审稿任务</button>
+            <button id="copyImageReviewPromptBtn" type="button">复制任务</button>
+            <button id="runImageReviewApiBtn" type="button">后台视觉审稿</button>
+            <button id="readImageReviewBtn" type="button">读取 JSON 审稿</button>
+          </div>
+          <textarea id="imageReviewPromptOutput" rows="6" readonly placeholder="生成给视觉大模型的图像审稿任务。"></textarea>
+          <textarea id="imageReviewResponseInput" rows="6" placeholder="把视觉模型返回的 JSON 粘贴到这里，再点击读取 JSON 审稿。"></textarea>
+          <div id="imageReviewStatus" class="ai-status">图像审稿使用独立接口；默认阿里百炼 Qwen-VL，请填入 DASHSCOPE_API_KEY。</div>
+        </div>
+        <div id="imageReviewResults" class="image-review-results empty-copy">AI 图片审稿和图形释义会显示在这里。</div>
+      </div>
+    </section>
+
+    <section class="audience-ai-panel panel">
+      <div class="panel-head">
+        <div>
+          <div class="section-label">AI 观众模拟器</div>
+          <h2>盲读图形序列与误读路径</h2>
+        </div>
+        <div id="audienceStats" class="match-stats">0 reading</div>
+      </div>
+      <div class="audience-layout">
+        <div>
+          <div id="audienceWorkflow" class="ai-workflow" aria-label="AI 观众模拟流程"></div>
+          <input id="audienceEndpointInput" class="text-input" type="url" value="https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions" aria-label="Audience Simulator API Endpoint">
+          <div class="inline-fields audience-api-fields">
+            <input id="audienceModelInput" class="text-input" type="text" value="qwen-plus" aria-label="Audience Simulator Model">
+            <input id="audienceApiKeyInput" class="text-input" type="password" placeholder="Qwen API Key / DASHSCOPE_API_KEY" aria-label="Audience Simulator API Key">
+          </div>
+          <div class="actions compact">
+            <button id="buildAudiencePromptBtn" type="button">生成盲读提示</button>
+            <button id="copyAudiencePromptBtn" type="button">复制提示</button>
+            <button id="runAudienceApiBtn" type="button">后台观众模拟</button>
+            <button id="readAudienceResponseBtn" type="button">读取 JSON 读法</button>
+          </div>
+          <textarea id="audiencePromptOutput" rows="6" readonly placeholder="生成给 AI 观众的盲读任务：不包含原句，只包含图形序列。"></textarea>
+          <textarea id="audienceResponseInput" rows="6" placeholder="把 AI 观众返回的 JSON 粘贴到这里，再点击读取 JSON 读法。"></textarea>
+          <div id="audienceStatus" class="ai-status">本区使用独立文本模型接口；默认阿里 DashScope qwen-plus，模型不会看到原句。</div>
+        </div>
+        <div id="audienceResults" class="audience-results empty-copy">AI 观众的猜读、阅读路径和误读对照会显示在这里。</div>
+      </div>
     </section>
   </main>
 

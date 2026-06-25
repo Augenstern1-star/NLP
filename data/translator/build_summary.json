@@ -5,5 +5,7 @@
   "concept_candidates": 13522,
   "concept_index": 260,
   "examples": 10,
-  "llm_batches": 18
+  "llm_batches": 18,
+  "image_paths": 1867,
+  "missing_image_paths": 0
 }

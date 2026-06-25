@@ -710,6 +710,30 @@ def target_to_candidate(target: dict[str, Any], label: str) -> dict[str, Any]:
     }
 
 
+def image_path_exists(image_path: str) -> bool:
+    normalized = str(image_path).replace("\\", "/")
+    if normalized.startswith("../"):
+        normalized = normalized[3:]
+    return (ROOT / normalized).exists()
+
+
+def summarize_image_paths(concept_index: dict[str, Any]) -> dict[str, int]:
+    paths: set[str] = set()
+    for concept in concept_index.get("concepts", []):
+        targets = []
+        if isinstance(concept.get("primary"), dict):
+            targets.append(concept["primary"])
+        targets.extend(target for target in concept.get("candidates", []) if isinstance(target, dict))
+        for target in targets:
+            paths.update(str(item) for item in target.get("image_paths", []) if item)
+
+    missing = [item for item in paths if not image_path_exists(item)]
+    return {
+        "image_paths": len(paths),
+        "missing_image_paths": len(missing),
+    }
+
+
 def build_examples(concept_index: dict[str, Any]) -> dict[str, Any]:
     concepts = concept_index["concepts"]
     lookup: dict[str, dict[str, Any]] = {}
@@ -834,6 +858,7 @@ def build_all(max_concepts: int, batch_size: int) -> dict[str, Any]:
     write_js(OUT_DIR / "concept_index.js", "DISHU_CONCEPT_INDEX", concept_index)
     write_js(OUT_DIR / "examples.js", "DISHU_TRANSLATOR_EXAMPLES", examples)
     batch_count = write_llm_batches(concept_candidates, batch_size=batch_size)
+    image_summary = summarize_image_paths(concept_index)
 
     summary = {
         "dishu_annotation_rows": len(dishu_rows),
@@ -843,6 +868,7 @@ def build_all(max_concepts: int, batch_size: int) -> dict[str, Any]:
         "concept_index": concept_index["concept_count"],
         "examples": len(examples["examples"]),
         "llm_batches": batch_count,
+        **image_summary,
     }
     write_json(OUT_DIR / "build_summary.json", summary)
     return summary
